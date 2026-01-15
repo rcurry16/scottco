@@ -26,17 +26,37 @@ jobs:
               cd /var/www/scottco-github
             fi
 
+            # Install uv if not present
+            if ! command -v uv &> /dev/null; then
+              curl -LsSf https://astral.sh/uv/install.sh | sh
+              export PATH="$HOME/.local/bin:$PATH"
+            fi
+
+            # Set up job-description with uv
+            cd /var/www/scottco-github/job-description
+            python3 -m venv .venv
+            source .venv/bin/activate
+            uv pip install -e .
+            deactivate
+
             # Create .env for job-description
-            cat > job-description/.env << EOF
+            cat > .env << EOF
             ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY_JOB_DESC }}
             MISTRAL_API_KEY=${{ secrets.MISTRAL_API_KEY }}
             PORT=8000
             EOF
 
+            # Set up job-evaluation with uv
+            cd /var/www/scottco-github/job-evaluation
+            python3 -m venv .venv
+            source .venv/bin/activate
+            uv pip install -e .
+            deactivate
+
             # Create .env for job-evaluation
-            cat > job-evaluation/.env << EOF
+            cat > .env << EOF
             ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY_JOB_EVAL }}
             EOF
 
-            echo "✅ Deployment complete - code updated and .env files created"
+            echo "✅ Deployment complete - code updated, dependencies installed, .env files created"
             echo "📍 Location: /var/www/scottco-github"

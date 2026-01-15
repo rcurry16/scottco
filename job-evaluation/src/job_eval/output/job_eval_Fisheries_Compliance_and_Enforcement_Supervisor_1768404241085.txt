@@ -1,0 +1,226 @@
+JOB EVALUATION ANALYSIS REPORT
+================================================================================
+
+TOOL 1: POSITION COMPARISON
+================================================================================
+
+Original Document:
+  /tmp/tmpfbyc_eqz.docx
+
+Updated Document:
+  /tmp/tmpdh1qxbvz.docx
+
+Summary:
+  The position description has been substantially revised to reflect a modernized role with expanded compliance and enforcement responsibilities, more detailed operational procedures, and enhanced emphasis on training, intelligence analysis, and inter-agency coordination. The reporting structure changed from 'Manager of Fisheries Operations' to 'Manager of Fisheries Licensing and Compliance,' and the position title was clarified to 'Fisheries Compliance and Enforcement Supervisor.'
+
+Overall Significance:
+  MAJOR
+
+Changes by Section:
+    Overall Purpose:
+      Modifications:
+        • Reporting to 'Manager of Fisheries Operations' -> 'Manager of Fisheries Licensing and Compliance'
+        • 'Supervisor of Inspector Specialists' -> 'Fisheries Compliance and Enforcement Supervisor (Supervisor)'
+        • Generic 'inspection program ensuring compliance with department legislation' -> Specific reference to 'Fisheries and Coastal Resources Act (FCRA) and regulations, and the Fish Harvester Organizations Support Act (FHOSA) and regulations'
+        • Broad focus on 'compliance and enforcement activities' -> Detailed focus on 'buying, selling, possession and processing of fish and fish products; the commercial harvest of marine plants; aquaculture operations; recreational fishing; and possession of live fish'
+        • Added: 'The Supervisor is the primary source of compliance and enforcement expertise, training, coaching and procedural support for Fisheries Inspectors'
+        • Added: 'The Supervisor contributes to departmental risk-based planning processes and provides an operational perspective on issues with enforcing legislation'
+        • Added: 'The incumbent provides input into the development of operational policies, procedures, and legislation'
+        • Added: 'The Supervisor holds the necessary appointments (e.g., Special Constable)'
+    Key Responsibilities:
+      Additions:
+        • New section 'Supporting Professional Development and Performance of Individual Fisheries Inspectors' with bullets on maintaining comprehensive knowledge, attending training, and providing mentorship on standards of conduct, professionalism, ethics, exercise of judgement, search warrants, Charter of Rights and Freedoms, interviewing, and judicial processes
+        • New section 'Work Planning and Monitoring' with bullets on participating in annual work plans, scheduling activities, identifying compliance priorities, developing issue-specific compliance plans, formulating risk mitigation measures, and monitoring performance
+        • New section 'Strategic Intelligence Activities' with bullets on collecting, analyzing and disseminating intelligence on emerging risks and suspected violators
+        • New section 'Ensuring Consistency in Process' with bullets on reviewing, auditing and analyzing inspections and investigations, developing reports and recommendations, and developing legally-sound standards and procedures
+        • New section 'Support, Coordinate or Lead Complex Investigations and Prosecutions' with bullets on advising on complex investigations, coordinating special investigations and joint forces operations, and consulting with Crown Prosecutor
+        • New section 'Contributes to Regulatory Excellence' with bullet on providing field operations perspective on practicality and enforceability of legislation
+        • New section 'Public Education' with bullets on delivering educational programming and obtaining feedback on enforcement activities
+        • New section 'Cooperation and Collaboration' with bullets on liaising with other agencies (DFO, Environment Canada, CFIA, CBSA, CRA) and participating in joint inspections
+        • New section 'Equipment, Inventory and Scheduling' with bullets on approving expenditures, managing inventory, purchasing items with government credit card, managing vehicle and boat leasing, setting schedules, operating vehicles and boats, and traveling throughout province
+        • New detailed section on compliance with specific regulations: 'Fish Buyers and Fish Processors Regulations', 'Aquaculture Licence and Lease Regulations', 'Aquaculture Management Regulations', 'Live Fish Possession Regulations', 'Recreational Fishing Regulations', 'Rock Weed Harvesting Regulations'
+        • New section 'Standard Inspection and Enforcement Duties' with detailed bullets on responding to complaints, conducting background checks, conducting inspections, conducting enforcement actions, completing legal documents, recommending improvements, and writing reports
+        • New detailed subsections specific to oversight of: commercial fish buying/selling/possession/processing, aquaculture operations, commercial marine plant harvesting, and recreational fishery
+        • New responsibility: 'It is the responsibility of the Supervisor, as Fisheries Inspector, to ensure compliance with FHOSA and Regulations. The Fisheries Inspector is required to follow-up with fish harvesters who have not paid their mandatory annual fish harvester dues'
+      Deletions:
+        • Entire 'Supervising and Administrative Responsibilities' section with content about establishing work priorities, service standards, training requirements, inventory management, office expenditures, OHS implementation, hiring, and performance management
+        • Generic statement: 'The Supervisor of Inspectors is responsible for managing the regional offices in an efficient and effective manner and facilitating the development of strategies and actions within the Department to address compliance challenges'
+        • Bullet points: 'Handling public complaints and inquiries', 'Insuring field staff provide appropriate client services and relations', 'Handle government complaints and inquiries', 'Provide advice to department staff relating to Licensing applications', 'Provide advice to legislation regulation, enforcement policies and procedures', 'Provide leadership to inspection staff', 'Provide knowledge and advice relating to product and processing standards and regulations', 'Liaise with provincial and federal departments relating to enforcement, inspection, supervision and legislation related to department', 'Liaise with industry to provide education and support for compliance with department regulations'
+        • Entire 'Regulatory Compliance' section with content about enforcing departmental regulation, client investigations, prosecution materials, court testimony, and establishing program delivery priorities
+    People Management:
+      Additions:
+        • # of Direct Reports: '3+' (previously blank)
+        • Classifications/Titles of Direct Reports: 'Inspector Specialist 3 / Fisheries Inspector' (previously blank)
+        • # of Indirect Reports: '0' (previously blank)
+        • Other Resources: 'n/a' (previously blank)
+    Scope - Contacts:
+      Modifications:
+        • Generic 'working with all department divisions that relate to regulations and enforcement' -> Detailed 'Daily contact with department staff on matters relating to marine resources, licensing, inland fisheries, marine plants and aquaculture. On occasion, helps Fisheries Loan Board staff in assisting with service of documents. Regular contact maintained with other provincial departments including Justice, Agriculture, Natural Resources, Public Works, Environment and Climate Change, and federal departments/agencies including Fisheries and Oceans Canada, Canadian Food Inspection Agency, Canada Customs and Revenue, Canada Border Services and RCMP. Occasional contact with departments/agencies in other jurisdictions'
+        • Generic 'Working with Seafood companies, fishers, buyers, processors to implement the regulations as stated in legislation' -> 'Regular contact with clients, various industry related interest groups and associations, legal counsel, and the general public'
+    Scope - Innovation:
+      Additions:
+        • New 'Innovation' subsection: 'Works with considerable independence and is expected to prioritize and organize work to reach objectives within the context of the department's goals. Possesses a high degree of self-initiative to ensure effective program delivery and will be expected to provide innovative solutions to address issues or areas of concern. Explores innovative approaches to the development and delivery of training effectively and efficiently. Must show initiative in seeking out collaborative arrangements with other government departments and agencies. Dealing with difficult or potentially confrontational situations requires ability to think clearly and quickly in stressful situations.'
+    Scope - Decision Making:
+      Modifications:
+        • Generic 'Direct Responsibility: Vehicle leasing and maintenance, Overtime, equipment, training, Provincial inspectors' and 'Indirect Responsibility:' (blank) -> Detailed 'Required to be appointed as special constables and must have a thorough knowledge of inspection and investigation techniques and procedures, proper evidence collection and handling, charge laying procedure, and court processes. Based upon evaluation and analysis, makes recommendations to management on changes to practices, processes, standards, programs, schedules and work plans. Uses superior judgement to develop and carry out reviews of Fisheries Inspectors' work and provide feedback for changes or improvements. Requires sound judgement to provide advice and direction to Fisheries Inspectors so they can make good decisions related to their compliance and enforcement activities.'
+    Scope - Impact of Results:
+      Additions:
+        • New detailed 'Impact of Results' subsection: 'Nova Scotia is Canada's largest seafood exporter, with lobster, crab, scallops, shrimp and halibut being its top species. Its exports are valued at approximately $2.5 billion annually. The lobster fishery is one of the most lucrative in Canada and has attracted 'bad actors' and organized crime. On average, it is estimated that 10 to 30% of landings and purchases go unreported. Results achieved through the effective implementation and delivery of compliance and enforcement programs contribute to the achievement of maintaining product quality, the health and safety of seafood consumers, and the orderly development of the fisheries sector (e.g., legally sourced, purchased and processed fish; sustainable fish; good reputation).'
+    Working Conditions - Physical Effort:
+      Modifications:
+        • 'Minimal - Work activities involve alternating positions of light physical activities, which cause little physical effort. Majority of time of spent in a comfortable position with frequent opportunity to move about at will. Activities require a variety at easy muscle movements' -> 'Moderate - Work activities involve office work and field work. Office work entails light physical effort, spending time in comfortable positions with frequent opportunity to move about at will. Field work may include loading gear in boats, carrying boxes of files, moving totes/containers, and other activities that require a moderate physical effort.'
+    Working Conditions - Physical Environment:
+      Modifications:
+        • 'Minimal - Works in an environment with occasional exposure to mild unpleasant or disagreeable conditions, and/or a remote possibility of risk of accident or health hazards.' -> 'Moderate – When not in the office, field work involves a mix of weather conditions and temperatures, various terrains, working near water and loud or heavy equipment. May encounter aggressive individuals.'
+    Working Conditions - Additional Information:
+      Modifications:
+        • 'Travel required, use and operation of boats, self-defense training, and operation of motor vehicle' -> 'The Fisheries Inspector is required to travel throughout the province, operate vehicles and boats, and on occasion work irregular work hours. Indoor working environments include offices, fish processing facilities, and retail establishments. Outdoor working environments include public wharves, lobster pounds, aquaculture leases, marine plant harvest sites, roadside inspections of vendors and vehicles.'
+
+Classification Relevant Changes:
+    Accountabilities:
+      • Expanded from general supervision to specific compliance and enforcement duties including responding to complaints, conducting inspections, investigating non-compliance, auditing records, gathering intelligence, preparing legal documents, and taking enforcement action
+      • Added responsibility for supporting professional development and training of Fisheries Inspectors on standards of conduct, professionalism, ethics, search warrants, Charter of Rights and Freedoms, interviewing, and judicial processes
+      • Added responsibility for work planning and monitoring including developing annual work plans, identifying compliance priorities, developing issue-specific compliance plans, and formulating risk mitigation measures
+      • Added responsibility for strategic intelligence activities including collection, analysis, and dissemination of intelligence on emerging risks and suspected violators
+      • Added responsibility for ensuring consistency in process through review, audit and analysis of inspections and investigations
+      • Added responsibility for supporting, coordinating or leading complex investigations and prosecutions
+      • Added responsibility for public education and delivering educational programming to organizations and the public
+      • Added responsibility for cooperation and collaboration with other agencies including DFO, CFIA, CBSA, CRA, and provincial departments
+      • Added specific compliance oversight responsibilities for Fish Buyers and Fish Processors Regulations, Aquaculture Licence and Lease Regulations, Aquaculture Management Regulations, Live Fish Possession Regulations, Recreational Fishing Regulations, and Rock Weed Harvesting Regulations
+      • Added responsibility for ensuring compliance with Fish Harvester Organizations Support Act (FHOSA) and following up with fish harvesters on mandatory annual dues
+    Knowledge Experience:
+      • Expanded requirement to maintain 'comprehensive, up-to-date knowledge of legislation, regulations, policies, best practices, investigative techniques and procedures related to the Department's mandate'
+      • Added requirement for knowledge of Fisheries and Coastal Resources Act (FCRA) and Fish Harvester Organizations Support Act (FHOSA) and their specific regulations
+      • Added requirement for knowledge of inspection and investigation techniques, proper evidence collection and handling, charge laying procedures, and court processes
+      • Added requirement for knowledge of Charter of Rights and Freedoms, search warrant procedures, interviewing techniques, and judicial processes/appeals
+      • Added requirement to attend training, conferences and seminars to ensure subject matter expertise remains current
+      • Added requirement for knowledge of standards of conduct, professionalism, and ethics in enforcement activities
+    Decision Making:
+      • Added requirement to be appointed as special constables with authority to exercise law enforcement powers
+      • Added authority to make recommendations to management on changes to practices, processes, standards, programs, schedules and work plans based on evaluation and analysis
+      • Added authority to develop and carry out reviews of Fisheries Inspectors' work and provide feedback for improvements
+      • Added authority to provide advice and direction to Fisheries Inspectors on compliance and enforcement decisions
+      • Added authority to approve expenditures and manage inventory
+      • Added authority to set Fisheries Inspectors' schedules based on operational needs and capacity
+      • Added authority to conduct a broad variety of enforcement actions including conducting interviews, taking statements, seizing property, executing search warrants, analyzing evidence, recommending punitive action and penalties, initiating administrative and legal proceedings, consulting with Crown Counsel, and preparing legal documents
+      • Added authority to recommend improvements to and participate in development of legislation, operational policies and procedures
+    Customer Relationship:
+      • Added responsibility for public education and delivering educational programming to organizations, user groups, industry sector groups and the public
+      • Added responsibility to use public communication opportunities to obtain feedback on enforcement activities and approaches
+      • Added responsibility for liaison with other agencies on information sharing, joint operations planning, and advice on legislation and regulations
+      • Added responsibility to participate in joint inspections and enforcement operations with other agencies
+      • Added responsibility to interpret and respond to inquiries about legislation, regulations and departmental policies made by departmental staff, client groups, and other provincial/federal law enforcement personnel
+      • Expanded contacts to include specific mention of legal counsel and detailed inter-agency relationships
+    Leadership:
+      • Added responsibility for supporting professional development and performance of individual Fisheries Inspectors through training, advice and mentorship
+      • Added responsibility for providing coaching and procedural support to Fisheries Inspectors
+      • Added responsibility to provide feedback to Fisheries Inspectors for changes or improvements
+      • Added responsibility to provide advice and direction to Fisheries Inspectors on compliance and enforcement activities
+      • Added responsibility to develop practical, legally-sound standards, policies and procedures for Fisheries Inspectors and periodically review and update
+      • Added responsibility to be the primary source of compliance and enforcement expertise for Fisheries Inspectors
+      • Clarified direct reports as '3+' Inspector Specialist 3 / Fisheries Inspector positions
+    Project Management:
+      • Added responsibility for participating in development of annual work plans
+      • Added responsibility for scheduling work activities in support of annual work plans
+      • Added responsibility for identifying compliance and enforcement priorities and developing work plans and issue-specific compliance plans
+      • Added responsibility for monitoring, analyzing and reporting to management on performance and progress on work plans
+      • Added responsibility for coordinating special investigations such as large-scale joint forces operations, those involving other jurisdictions, or covert operations
+      • Added responsibility to participate in cross-departmental and cross-agency planning teams
+      • Added responsibility for managing vehicle and boat leasing and maintenance
+
+
+--------------------------------------------------------------------------------
+
+TOOL 2: RE-EVALUATION GAUGE
+================================================================================
+
+Should Re-evaluate:
+  YES
+
+Confidence:
+  92%
+
+Current Level:
+  EC-Unknown
+
+Likely New Level Range:
+  EC-11 to EC-12
+
+Risk Assessment:
+  HIGH
+
+Rationale:
+  The position description has undergone substantial material changes that elevate responsibilities significantly beyond typical EC-Unknown expectations. The role has evolved from a general supervisory position with basic compliance oversight to a specialized leadership and subject-matter-expert role with multi-dimensional accountability. Key elevating factors: (1) Explicit designation as 'primary source of compliance and enforcement expertise' with responsibility for developing legally-sound standards and procedures; (2) Addition of strategic intelligence analysis and complex investigation coordination responsibilities; (3) Expanded leadership scope including professional development mentorship on specialized topics (search warrants, Charter rights, judicial processes); (4) Participation in risk-based departmental planning and policy development; (5) Authority to make recommendations on legislative and procedural changes; (6) Coordination of inter-agency and cross-jurisdictional operations; (7) Special Constable appointment with law enforcement decision-making authority. These changes indicate movement toward EC-11 (specialized supervisory/expert role with policy influence) or EC-12 (senior specialist with significant decision-making authority and external coordination responsibilities). The position now carries accountability for ensuring consistency across enforcement activities, developing training curricula, and contributing to departmental strategy—responsibilities that exceed standard supervisory scope.
+
+Key Factors:
+    • Explicit designation as primary source of expertise and training authority for Fisheries Inspectors—elevates from supervisor to subject-matter-expert leader
+    • Addition of strategic intelligence analysis and complex investigation coordination responsibilities—introduces analytical and investigative complexity beyond routine supervision
+    • Responsibility for developing and updating legally-sound standards, policies and procedures—indicates policy development authority typically at EC-11+
+    • Participation in departmental risk-based planning and cross-agency/cross-departmental planning teams—elevates scope beyond regional operations to strategic planning
+    • Authority to make recommendations on legislation, operational policies and procedures—indicates influence on departmental direction
+    • Special Constable appointment with law enforcement decision-making authority (search warrants, evidence handling, charge laying)—adds legal/enforcement complexity
+    • Expanded knowledge requirements including Charter of Rights and Freedoms, judicial processes, and investigative techniques—indicates specialized legal/procedural expertise
+    • Public education and inter-agency liaison responsibilities—expands customer/stakeholder management beyond internal operations
+    • Responsibility for auditing and analyzing inspections/investigations and providing feedback—indicates quality assurance and process improvement authority
+    • Context of $2.5B seafood export industry and organized crime involvement—indicates high-stakes operational environment
+
+Categories Affected:
+    • Accountabilities—substantially expanded from general supervision to specialized compliance/enforcement expertise, intelligence analysis, policy development, and complex investigation coordination
+    • Knowledge & Experience—elevated to include specialized legal knowledge (Charter, search warrants, judicial processes), investigative techniques, and requirement to maintain comprehensive expertise across multiple regulatory frameworks
+    • Decision Making—expanded from operational decisions to include law enforcement authority (Special Constable), recommendations on policy/legislative changes, and authority to direct enforcement actions
+    • Leadership—elevated from basic supervision to mentorship on specialized topics, development of standards and procedures, and serving as primary expertise source
+    • Customer & Relationship Management—expanded to include public education, inter-agency coordination, and participation in joint operations with federal/provincial agencies
+    • Project Management—added responsibility for strategic planning participation, complex investigation coordination, and cross-agency operation management
+
+
+--------------------------------------------------------------------------------
+
+TOOL 3: CLASSIFICATION RECOMMENDATION
+================================================================================
+
+Position Title:
+  Fisheries Compliance and Enforcement Supervisor
+
+Recommended Level:
+  EC-11
+
+Confidence:
+  88%
+
+Previous Level:
+  EC-Unknown
+
+Change Context Used:
+  Yes
+
+Rationale:
+  This position demonstrates clear EC-11 classification characteristics across all six categories. The role has evolved substantially from a general supervisory position to a specialized leadership and subject-matter-expert role with multi-dimensional accountability. The incumbent serves as the primary source of compliance and enforcement expertise, with responsibility for developing legally-sound standards and procedures, mentoring specialized staff on complex legal and investigative topics, coordinating complex investigations and prosecutions, and contributing to policy development. The position requires broad and deep knowledge of specialized fields (fisheries legislation, enforcement procedures, investigative techniques, Charter rights, judicial processes), operates with significant autonomy in decision-making within defined policy frameworks while making recommendations on policy/legislative improvements, and exercises law enforcement authority as a Special Constable. The role involves leading small to medium-sized projects (complex investigations, joint operations), managing cross-functional and cross-agency coordination, and providing technical direction to less experienced staff. These characteristics align precisely with EC-11 standards: managerial direction for small function/operating units of highly skilled staff, deep specialization in complex fields of knowledge, decision-making where situations are often grey/ambiguous requiring significant judgment, and leadership of small to medium-sized projects. The position does not reach EC-12 level because it lacks responsibility for high-level revenue/cost containment contributions of significant importance, does not manage a complete business function or process, and does not have the broader organizational scope characteristic of EC-12 roles.
+
+Category Analysis:
+    Accountabilities: EC-11 level. The position demonstrates accountability for a specific business function (fisheries compliance and enforcement operations) with multiple complex sub-accountabilities: (1) primary source of expertise and training for specialized staff on complex legal/investigative topics; (2) development of legally-sound standards, policies and procedures; (3) coordination and support for complex investigations and prosecutions; (4) contribution to risk-based planning and policy development; (5) direct inspection and enforcement duties; (6) inter-agency coordination and joint operations. These responsibilities exceed EC-10 (which involves providing managerial direction for small functions with routine operations) because they involve non-routine, complex, specialized work requiring expert judgment. They do not reach EC-12 level because they do not encompass responsibility for high-level revenue/cost containment or management of complete business processes across multiple functions.
+    Knowledge Experience: EC-11 level. The position requires broad and deep knowledge in specialized fields: comprehensive understanding of fisheries legislation (FCRA, FHOSA), regulations, investigative techniques, legal procedures (search warrants, Charter of Rights and Freedoms, judicial processes, appeals), prosecution procedures, and intelligence analysis. The incumbent must maintain current expertise through ongoing training and conferences, and must be capable of training others on these complex topics. This demonstrates 'deep specialization in complex fields of knowledge' characteristic of EC-11, exceeding EC-10 which requires 'knowledge in technical, scientific or specialized field' but with less depth. The requirement to understand how enforcement activities interact with multiple agencies and regulatory frameworks, and to contribute to policy development, indicates the conceptual understanding expected at EC-11.
+    Decision Making: EC-11 level. The position involves analyzing specific issues, procedures and enforcement approaches within clearly defined legislative and policy frameworks, but with significant autonomy and judgment required. The incumbent makes decisions on: complex investigation strategies, enforcement actions, prosecution recommendations, policy/procedure development, and risk mitigation measures. The position description explicitly states the incumbent 'provides input into the development of operational policies, procedures, and legislation' and 'provides a field operations perspective on the practicality and enforceability of existing and proposed legislation.' These decisions often involve grey/ambiguous situations requiring significant judgment (e.g., determining appropriate enforcement response, evaluating complex investigation evidence). This matches EC-11 standard: 'Provides recommendations on improving procedure & processes where situations are often grey &/or ambiguous; significant judgement is required.' The Special Constable appointment grants law enforcement authority, elevating decision-making autonomy beyond EC-10.
+    Customer Relationship: EC-11 level. The position involves multiple stakeholder relationships: (1) internal coaching and mentoring of Fisheries Inspectors; (2) consultation with Crown Prosecutors and court officials as a department expert; (3) liaison with multiple federal and provincial agencies (DFO, Environment Canada, CFIA, CBSA, CRA, provincial enforcement groups); (4) public education and engagement with user groups, industry sectors, and communities; (5) two-way communication with management. These relationships go beyond EC-10 (which involves assisting in development of customer service enhancements and seeking new avenues for relationships) to actively coaching others on relationship management, serving as expert advisor to external agencies, and developing integrated approaches with other leaders. This aligns with EC-11: 'Seeks our new avenues for building internal & external relationships; maintains on going, contact with existing relationships; coaches others on relationship management.'
+    Leadership: EC-11 level. The position involves: (1) oversight of regional Fisheries Inspectors (supervisory responsibility); (2) providing training, coaching and mentorship on specialized topics (standards of conduct, professionalism, ethics, legal procedures, investigative techniques); (3) establishing and communicating compliance priorities and work plans; (4) serving as primary source of expertise and procedural support; (5) developing standards and procedures for the team. The incumbent 'establishes & communicates common goals & direction for team, coaches others on how to enhance communication, problem solving team work & innovation' which is characteristic of EC-11. The role does not reach EC-12 because it does not involve establishing and communicating direction for a complete functional area or coordinating cross-functional communication at that broader level.
+    Project Management: EC-11 level. The position involves managing small to medium-sized projects: (1) complex investigations requiring coordination of multiple inspectors and evidence; (2) large-scale joint forces operations with other jurisdictions; (3) covert operations; (4) cross-departmental and cross-agency planning team participation; (5) development of issue-specific compliance plans. The incumbent 'coordinates special investigations such as large-scale joint forces operations, those involving other jurisdictions, or covert operations' and 'may be assigned to participate in cross-departmental and cross-agency planning teams.' This matches EC-11: 'Both single focused & cross functional; within one department although work may cross over into other departments. Identifies needs & provides technical direction in the design of alternative applications.' The scope does not reach EC-12 level (which involves providing leadership to significant technical/business projects with primary focus on managing processes for planning, executing, monitoring and delivering projects with direct impact on business success).
+
+Supporting Evidence:
+    • Designated as 'primary source of compliance and enforcement expertise, training, coaching and procedural support' - establishes subject-matter expert authority characteristic of EC-11 specialist roles
+    • Responsibility for developing 'practical, legally-sound standards, policies and procedures' demonstrates policy development contribution expected at EC-11, not routine operational execution
+    • Holds Special Constable appointment granting law enforcement authority - elevates decision-making autonomy and accountability beyond typical supervisory roles
+    • Coordinates complex investigations, prosecutions, and joint operations with multiple agencies - demonstrates project management scope of small to medium-sized complex initiatives
+    • Provides mentorship and training on specialized legal/investigative topics (search warrants, Charter rights, judicial processes) - indicates deep specialization and coaching responsibility
+    • Contributes to departmental risk-based planning and provides input on legislation/regulation development - demonstrates strategic contribution beyond operational management
+    • Manages cross-departmental and cross-agency coordination with federal agencies (DFO, CFIA, CBSA, CRA) - indicates relationship management scope beyond single-function operations
+    • Conducts performance audits and analysis of inspections/investigations to ensure consistency - demonstrates quality assurance and process improvement responsibility
+    • Does not manage complete business function or multiple functions - distinguishes from EC-12 level
+    • Does not have responsibility for revenue/cost containment of significant importance - distinguishes from EC-12 level
+
+Alternative Levels:
+    • EC-10
+    • EC-12
+
+Comparable Positions:
+    • Specialized enforcement supervisor roles in regulatory agencies typically classified at EC-11
+    • Subject-matter expert supervisors with training and policy development responsibilities typically at EC-11
+    • Compliance and enforcement coordinators managing complex investigations and inter-agency operations typically at EC-11

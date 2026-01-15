@@ -1,0 +1,68 @@
+{
+  "old_document": "Position Levels/EC 10 Policy and Research Analyst - 90001329.pdf",
+  "new_document": "Position Levels/EC 10 Policy and Research Analyst - 90001329v2.pdf",
+  "summary": "The position description has been updated to reflect a more strategic and leadership-oriented role. Key changes emphasize leading complex initiatives, providing high-level strategic advice, developing deep expertise, building stakeholder relationships, and mentoring colleagues. The language throughout has been elevated to reflect greater autonomy, complexity, and influence.",
+  "changes_by_section": {
+    "OVERALL PURPOSE": {
+      "additions": [],
+      "deletions": [],
+      "modifications": [
+        "providing comprehensive policy formulation -> leading complex policy formulation, implementation, and research initiatives",
+        "advising senior leadership -> provides high-level analysis, strategic advice, and well-developed recommendations to inform decision-making",
+        "working with internal and external stakeholders -> collaborates with internal and external partners to advance the government's regulatory modernization and consumer protection objectives"
+      ]
+    },
+    "KEY RESPONSIBILITIES": {
+      "additions": [],
+      "deletions": [],
+      "modifications": [
+        "Develops and maintains subject-matter expertise, as required -> Develops and maintains deep subject-matter expertise",
+        "Added new responsibility: Leads comprehensive policy analysis and research to evaluate regulatory impacts, identify improvement opportunities, and recommend evidence-based solutions",
+        "Added new responsibility: Builds and maintains strategic relationships with key stakeholders to support effective implementation of legislative and program changes. Provides guidance and mentorship to colleagues on policy development processes and research methodologies, contributing to a culture of analytical rigor and innovation"
+      ]
+    },
+    "SCOPE - Innovation": {
+      "additions": [],
+      "deletions": [],
+      "modifications": [
+        "is regularly called upon to conduct design new policies -> is frequently called upon to design and lead the development of new or revised policy and legislative frameworks that address complex and emerging issues",
+        "must develop recommendations and advice by performing research, and by applying constructive and creative thinking -> develops forward-looking recommendations and advice through sophisticated research, environmental scanning, and the application of creative and strategic thinking",
+        "may be required to adapt consumer protection programs -> may be required to assess and adapt innovative consumer protection programs"
+      ]
+    }
+  },
+  "classification_relevant_changes": {
+    "accountabilities": [
+      "New accountability to lead comprehensive policy analysis and research to evaluate regulatory impacts",
+      "New accountability to build and maintain strategic relationships with key stakeholders",
+      "New accountability to provide guidance and mentorship to colleagues on policy development processes and research methodologies",
+      "Elevated from 'conducting' to 'leading' complex policy formulation and implementation initiatives"
+    ],
+    "knowledge_experience": [
+      "Requirement elevated from 'subject-matter expertise, as required' to 'deep subject-matter expertise' across regulatory areas",
+      "New requirement for sophisticated research and environmental scanning capabilities",
+      "New requirement for knowledge of policy development processes and research methodologies to mentor others"
+    ],
+    "decision_making": [
+      "Elevated language from 'advising' to 'provides high-level analysis, strategic advice, and well-developed recommendations to inform decision-making'",
+      "New authority to lead development of new or revised policy and legislative frameworks",
+      "Increased complexity: from designing policies to designing and leading development of frameworks addressing complex and emerging issues"
+    ],
+    "customer_relationship": [
+      "New responsibility to build and maintain strategic relationships with key stakeholders",
+      "Elevated from 'working with' to 'collaborates with internal and external partners'",
+      "New focus on supporting effective implementation through stakeholder relationship management"
+    ],
+    "leadership": [
+      "New explicit mentorship responsibility: 'Provides guidance and mentorship to colleagues on policy development processes and research methodologies'",
+      "New responsibility to contribute to 'a culture of analytical rigor and innovation'",
+      "Elevated from supporting implementation to leading implementation of policy, legislative, program, or regulatory changes"
+    ],
+    "project_management": [
+      "Elevated from 'plans, leads, coordinates, or supports' to emphasis on 'leads' complex policy initiatives",
+      "New responsibility for leading comprehensive policy analysis and research projects",
+      "Increased scope: from individual policy projects to leading development of policy and legislative frameworks"
+    ]
+  },
+  "overall_significance": "major"
+}

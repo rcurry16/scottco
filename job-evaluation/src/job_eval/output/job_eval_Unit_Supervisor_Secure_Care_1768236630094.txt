@@ -1,0 +1,341 @@
+JOB EVALUATION ANALYSIS REPORT
+================================================================================
+
+TOOL 1: POSITION COMPARISON
+================================================================================
+
+Original Document:
+  /tmp/tmpl6wt03qk.pdf
+
+Updated Document:
+  /tmp/tmpkfne00av.pdf
+
+Summary:
+  This represents a complete job reclassification from Senior Executive Administrative Coordinator (EC 07) to Unit Supervisor Secure Care (EC 10). The position shifts from executive office administration to direct supervision of youth workers in a secure care facility, with fundamentally different accountabilities, knowledge requirements, decision-making authority, and working conditions.
+
+Overall Significance:
+  MAJOR
+
+Changes by Section:
+    Classification Job Information:
+      Modifications:
+        • Position Title: Senior Executive Administrative Coordinator -> Unit Supervisor Secure Care
+        • SAP Job ID: 90004031 -> 90001594
+        • Pay Grade: EC 07 -> EC 10
+        • Department: Cross Departmental -> Community Services
+        • Division/Section: Office of the Deputy Minister or Minister -> Family and Community Supports
+        • Reports To: Deputy Minister or Minister -> Senior Unit Supervisor, Wood Street Centre
+        • Standardized: Yes -> No
+        • Date Last Evaluated: 1/21/2021 -> 4/1/2009
+    Overall Purpose:
+      Additions:
+        • Direct supervision, professional development and deployment of Youth Workers at Wood Street Centre
+        • Scheduling and managing daily operations of secure care facility operating 24/7
+        • Treatment plan interventions and application of Accountability Case Management (ACM)
+        • Delivery of psycho-educational (social and emotional learning) youth programs
+        • Accountability for safety and security of youth and staff through dynamic and static security monitoring
+      Deletions:
+        • Leading and coordinating activities ensuring efficient operation of Executive Office
+        • Liaising, development of relationships, planning, and coordination in support of departmental programs
+        • Gathering and analyzing information, assessing options and making recommendations
+        • Contributing to positive perception of Government's agenda, policies and activities
+    Key Responsibilities:
+      Additions:
+        • Supervision of Case Management with goal to meet residents' needs through individualized treatment plans
+        • Coordinating and supervising Youth Workers, Student Placements and volunteers
+        • Ensuring completion of documentation for court, discharge summaries, time-sensitive data collection
+        • Supervising assignment of daily psycho-educational youth programming
+        • Collaborating with Chief of Clinical Services and Senior Unit Supervisor on program delivery
+        • Indirect supervision of Interdisciplinary Team
+        • Daily collaboration with teachers on classroom youth behaviour management
+        • Demonstrating leadership to all aspects of program in consultation with Facility Manager
+        • Administering authority of issuing Secure Treatment Certificates and Leaves of Absences (LOAs)
+        • Maintaining responsibility for security within the facility
+        • Participating in risk referral conferences
+        • Overseeing community and agency involvement at facility
+        • Facilitating reintegration of youth into community
+        • Monitoring youth in community on LOAs and making arrangements for return if conditions not met
+        • Ensuring safety through compliance with Policies, Provincial Standards, Children and Family Services Act, Child Abuse Protocol, OH&S Legislation
+        • Assuming responsibility for physical plant, maintenance, mechanical and electrical infrastructure in absence of Facility Manager
+        • Managing and monitoring crisis intervention using Non Violent Crisis Intervention (NCI) techniques
+        • Assessing needs through individual intervention plans
+        • Supervising and approving use of Secure Isolation Rooms (SIR)
+        • Critically examining crisis situations for compliance with Provincial Standards
+        • Providing follow-up investigations and quality reviews of critical and serious incidents
+        • Coordinating health services with on-site Health Services personnel
+        • Administering and charting medications on evenings, weekends, holidays
+        • Ensuring Youth Workers monitor and record residents' medication responses
+        • Contacting Emergency Health Services and facilitating LOAs for medical treatment
+        • Participation in recruitment and evaluation of staff performance targets
+        • Promoting diversity and healthy workplace
+        • Preparing time sheet reports for staff payroll on bi-weekly basis
+        • Demonstrating knowledge of NSGEU Collective Agreement, Manual 500, Code of Professional Conduct, Labour Standards, OH&S Act
+      Deletions:
+        • Representing Executive Office to internal and external representatives
+        • Coordinating submissions to Executive Council, Briefing Books, Notes, Ministerial correspondence
+        • Monitoring revenues and expenditures, budget forecasts, financial records, invoices
+        • Keeping Deputy/Minister informed of priorities and requests
+        • Collecting and analyzing information for presentations and speeches
+        • Coordinating logistics for in and out of province meetings
+        • Supervising clerical and administrative staff
+        • Coordinating special projects as requested by Deputy or Minister
+        • On-boarding and orientation of new deputies and ministers
+    Scope - Contacts:
+      Additions:
+        • Internal: Ongoing contact with Interdisciplinary Team (Registered Nurse, Medical Doctor, Psychologist, Social Workers, Youth Workers, Teachers, Cook, Senior Unit Supervisor, Chief of Clinical Services), Facility Manager, residents, Building Operator, Administrative Support staff, housekeeping staff
+        • External: Ongoing contact with Police Services, Attorneys, Legal-Aid Counsel, Sheriff Services Department, parents/guardians, visitors, Provincial Ombudsman Office, outside building contractors, consulting psychiatrist, general practitioner, community groups, Agency Social Workers, Department of Community Services Social Workers
+      Deletions:
+        • Regular contact with senior officials within Department and across government
+        • Regular contact with senior staff, other provincial government departments, Office of the Premier
+        • Frequent contact with municipal and federal counterparts
+        • Regular contact with public, private industry, external stakeholders, industry associations, media
+    Scope - Innovation/Challenges:
+      Additions:
+        • Supervises drafting and implementation of individualized treatment plans for residents with emotional and/or behavioural disorders
+        • Supervises and/or creates various options to manage crisis where critical thinking and organization are essential
+        • Options must be in accordance with NCI and Provincial Standards for Residential Child-Caring Facilities
+        • Crisis situations may include individual/group disturbances, hostage taking, elopements/attempted elopements, assault on residents or staff, loss of available infrastructure
+        • Supervises implementation of individual intervention plans for challenging youth with chronic patterns of aggression and loss of control
+        • Challenged to motivate staff under direct supervision through role modeling and effective leadership
+        • Promote good rapport between staff and youth for enhanced safe and secure environment
+        • Ensures decisions regarding treatment and management of residents emphasize maintenance of well being, health and safety
+        • Examples include initiation of special measures such as physical restraints in accordance with NCI methods and use of Secure Isolation Room
+        • Maintains facility operational schedules pertaining to resident's activities and services
+        • Deploys staff and monitors performance, attendance and compliance with policies and procedures
+        • Makes decisions to resolve employee complaints and recommendations regarding performance management
+      Deletions:
+        • Government becoming more aligned with collaborative and horizontal manner
+        • Deputy/Minister may hold multiple portfolios
+        • Complex environment requiring knowledge of government priorities overall
+        • Acquiring working knowledge of extra portfolio's mandate, programs, clients, departmental priorities
+        • Environment of regular change as Deputy Ministers and Ministers rotate
+        • Developing solid working relationships with senior staff, adapting style and approach
+    Scope - Decision Making:
+      Additions:
+        • In absence of Facility Manager, Senior Unit Supervisor and Chief of Clinical Services may be required to make decisions regarding issuance of Secure Treatment Certificates and LOAs
+        • Decisions referred to supervisor include unique operational and/or security issues exceeding scope of day to day operation
+        • Facility issues impacting external stakeholders, high profile situations such as elopements, suicide attempts, serious injuries or assaults
+        • Issues regarding staff discipline
+        • If errors in judgement are made by Unit Supervisor or subordinates, results could include elopements, violence by residents, serious injury and possibly death to staff, residents, visitors or persons contracted to perform duties, or public at large
+        • Effective and consistent leadership required to maintain positive staff/resident relations, high levels of morale and safety
+        • Must act efficiently and effectively when crisis arises
+        • Errors have potential for negative media attention affecting public confidence in Minister of Community Services
+      Deletions:
+        • Proactive, show initiative and use sound judgement when reviewing information and developing options
+        • Makes decisions on day to day implementation, coordination and organization of comprehensive office operations
+        • Works with considerable freedom to make decisions on development of processes and procedures
+        • Critical thinker to evaluate solutions in terms of business, financial and client impacts
+        • Look for opportunities to strengthen and support efforts of the Department
+    Scope - Impact of Results:
+      Additions:
+        • Effective and consistent leadership required to maintain positive staff/resident relations, high levels of morale and safety
+        • Must act efficiently and effectively when crisis arises
+        • Errors have potential for negative media attention affecting public confidence in Minister of Community Services
+      Deletions:
+        • Establishes and maintains client-centered environment focused on consistent delivery of high-quality service
+        • Results achieved contribute to ability of Department to effectively meet operational targets
+    People Management:
+      Additions:
+        • Directly supervised by Unit Supervisors: Youth Workers (25), Casual Youth Workers (8-10)
+        • Youth Workers per shift: 6-8 per day shift, 3-4 per night shift
+        • Indirectly supervised by Unit Supervisor: Social Workers (2), Cook (1), Teachers (2), Clerk (1), Secretary (1), Registered Nurse (1), Psychologist (1)
+      Deletions:
+        • Supervises administrative staff in Executive Offices (if applicable)
+        • Provides advice and direction to departmental administrative staff related to Executive Office processes
+    Additional Information:
+      Additions:
+        • After regular business hours and on holidays Unit Supervisor performs role of Acting Facility Manager
+        • Responsible for facility operation, program implementation, resident interventions, implementation of treatment plans, supervision of staff, facility maintenance
+        • Oversees new resident admissions, approves, issues and may cancel LOAs when necessary
+        • In absence of Registered Nurse makes health care decisions in terms of dispensing prescribed medications and accessing Emergency Health Services
+        • In event that next scheduled Unit Supervisor is unavailable, Unit Supervisor required to remain on duty following conclusion of scheduled shift until suitable replacement arrives
+        • Offers presentations to educate general public and/or external stakeholders regarding WSC program
+    Working Conditions - Physical Effort:
+      Modifications:
+        • Light physical activities, little physical effort -> Minimal - alternating positions of light physical activities causing little physical effort
+        • Majority of time in comfortable office setting -> Majority of time spent in comfortable position with frequent opportunity to move about at will
+        • Some site visits as required -> Activities require variety of easy muscle movements
+    Working Conditions - Physical Environment:
+      Additions:
+        • Office located within secure area of facility adjoining units where residents reside
+        • Unit Supervisor's duties include working on units as well as in program area
+        • Work environment with increased exposure to physically and verbally aggressive residents
+        • Potential exists of visitors exhibiting similar behaviours
+        • May be involved in situations requiring physical restraint of residents with increasing risk of injury
+        • Exposure to spitting, biting, kicking, punching, or objects being thrown
+        • At times ambient noise level extremely high due to office location and resident's behaviour
+      Modifications:
+        • Exposure to acceptable working conditions with occasional mild unpleasant conditions -> Minimal - occasional exposure to mild unpleasant or disagreeable conditions with remote possibility of risk of accident or health hazards
+    Working Conditions - Sensory Attention:
+      Additions:
+        • While conducting daily responsibilities must always maintain heightened sense of awareness/alertness
+        • Listening to resident conversations and observing interactions
+        • Effectively interpret same and respond to potentially dangerous situations where extent and severity unknown at time of response
+        • Diligence required when conducting daily inspections and interactions with residents
+        • Not maintaining heightened level of sensory attention may result in physical harm/injury to self as well as residents, coworkers, visitors, and public at large
+      Modifications:
+        • Need to concentrate on variety of sensory inputs for short durations, several times a day -> Moderate - need to concentrate on variety of sensory inputs for intermediate durations at a time requiring close attention several times daily
+        • If interrupted, some lost time experienced to backtrack -> If sensory activities interrupted, time required to backtrack to resume activities, involving lost time
+    Working Conditions - Psychological Pressures:
+      Additions:
+        • Oversees new resident admissions during intake process when youth may experience crisis and/or withdrawal from alcohol or illegal drugs
+        • Assessment and monitoring skills essential
+        • Experiences constant pressure to meet deadlines such as review of incidents, discharge reports, reports for court, treatment plans, case conference notes, various other time sensitive documents
+        • Exposed to aggressive/challenging contacts from residents and parents/guardians (phone calls/visits)
+        • Considerable disruption to personal life due to rotating shift work schedule
+      Modifications:
+        • Occasional exposure to psychological pressures with ability to largely control pace of work -> Moderate - occasional exposure to one or more mental pressures where mental stress would not be noticeably disruptive
+        • Degree of psychological stress not noticeably disruptive -> Mental stress would not be noticeably disruptive to work, nor would unpleasant reaction be too strong or persistent
+        • Disruption to personal life moderate -> Some disruption of personal life because of work, work schedules or need to travel
+
+Classification Relevant Changes:
+    Accountabilities:
+      • Shift from executive office administration to direct supervision of 25+ Youth Workers in secure care facility
+      • New accountability for safety and security of youth and staff through dynamic and static security monitoring
+      • New accountability for treatment plan implementation and Accountability Case Management (ACM) supervision
+      • New accountability for crisis intervention management using Non Violent Crisis Intervention (NCI) techniques
+      • New accountability for health care coordination including medication administration
+      • New accountability for facility operations including physical plant maintenance and infrastructure
+      • New accountability for issuing Secure Treatment Certificates and Leaves of Absences under Children and Family Services Act
+      • New accountability for compliance with Provincial Standards for Residential Child-Caring Facilities, Child Abuse Protocol, and OH&S Legislation
+      • Acting Facility Manager responsibilities during off-hours and holidays
+    Knowledge Experience:
+      • Shift from knowledge of government processes, Executive Council submissions, ministerial correspondence to knowledge of youth care, behavioral management, and secure facility operations
+      • New requirement for knowledge of Non Violent Crisis Intervention (NCI) techniques and methods
+      • New requirement for knowledge of Accountability Case Management (ACM) practices
+      • New requirement for knowledge of Children and Family Services Act of Nova Scotia
+      • New requirement for knowledge of Provincial Standards for Residential Child-Caring Facilities
+      • New requirement for knowledge of Provincial Child Abuse Protocol
+      • New requirement for knowledge of psycho-educational and social-emotional learning programs
+      • New requirement for knowledge of NSGEU Collective Agreement, Manual 500, Code of Professional Conduct, Labour Standards, and NS OH&S Act
+      • New requirement for knowledge of health care administration including medication management
+      • New requirement for knowledge of facility maintenance and mechanical/electrical infrastructure troubleshooting
+    Decision Making:
+      • Shift from decisions on office operations and document processing to decisions on resident treatment, safety, and security
+      • New authority to issue Secure Treatment Certificates and LOAs (in absence of Facility Manager and Senior Unit Supervisor)
+      • New authority to make decisions regarding physical restraint of residents and use of Secure Isolation Rooms
+      • New authority to make decisions regarding crisis intervention and emergency response
+      • New authority to make health care decisions including medication dispensing in absence of Registered Nurse
+      • New authority to make decisions regarding employee discipline and performance management
+      • Significantly higher consequence decisions - errors could result in elopements, violence, serious injury or death
+      • New requirement to make decisions regarding facility operations and maintenance in absence of Facility Manager
+      • Decisions now have potential for negative media attention affecting public confidence in Minister of Community Services
+    Customer Relationship:
+      • Shift from relationships with senior government officials, ministers, deputies to relationships with youth residents, parents/guardians, and interdisciplinary team
+      • New relationships with law enforcement (Police Services, Sheriff Services Department)
+      • New relationships with legal representatives (Attorneys, Legal-Aid Counsel)
+      • New relationships with external oversight (Provincial Ombudsman Office)
+      • New relationships with health care providers (Registered Nurse, Medical Doctor, Psychiatrist, General Practitioner)
+      • New relationships with community groups and external stakeholders regarding youth reintegration
+      • New requirement to manage relationships with aggressive/challenging residents and parents/guardians
+      • New requirement to facilitate reintegration of youth into community
+    Leadership:
+      • Shift from supporting executive leadership to direct supervision and leadership of 25+ Youth Workers and 8-10 Casual Youth Workers
+      • New leadership responsibility for indirect supervision of Interdisciplinary Team (Social Workers, Teachers, Psychologist, Registered Nurse, Cook, Clerk, Secretary)
+      • New leadership responsibility for professional development and deployment of Youth Workers
+      • New leadership responsibility for motivating staff through role modeling and effective leadership
+      • New leadership responsibility for promoting good rapport between staff and youth
+      • New leadership responsibility for promoting diversity and healthy workplace
+      • New leadership responsibility for maintaining positive staff/resident relations and high levels of morale
+      • New leadership responsibility for acting as Facility Manager during off-hours and holidays
+      • New leadership responsibility for demonstrating leadership competencies and respecting corporate human resource practices
+      • New leadership responsibility for public education through presentations to general public and external stakeholders
+    Project Management:
+      • Shift from coordinating special projects for executive office to supervising implementation of individualized treatment plans for residents
+      • New project management of crisis intervention situations requiring coordination of multiple staff and resources
+      • New project management of resident reintegration into community
+      • New project management of new resident admissions and intake processes
+      • New project management of facility operations and maintenance projects
+
+
+--------------------------------------------------------------------------------
+
+TOOL 2: RE-EVALUATION GAUGE
+================================================================================
+
+Should Re-evaluate:
+  YES
+
+Confidence:
+  98%
+
+Current Level:
+  EC-10
+
+Likely New Level Range:
+  EC-10
+
+Risk Assessment:
+  LOW
+
+Rationale:
+  This is NOT a re-evaluation scenario but rather a COMPLETE POSITION RECLASSIFICATION that has already occurred. The position was previously classified as EC-07 (Senior Executive Administrative Coordinator) and has been reclassified to EC-10 (Unit Supervisor Secure Care). The changes are FUNDAMENTAL and MATERIAL across all six classification categories, representing a shift from executive office administration to direct supervision of youth workers in a secure care facility with significantly elevated accountabilities, decision-making authority, and working conditions. The current classification of EC-10 appears APPROPRIATE and JUSTIFIED for the new role scope. No further elevation beyond EC-10 is warranted based on the position description provided.
+
+Key Factors:
+    • Complete role transformation: Executive office administration → Direct supervision of 25+ Youth Workers in secure care facility
+    • Accountability elevation: From supporting executive functions to direct responsibility for youth safety, security, treatment planning, and crisis intervention
+    • Decision-making authority: From office operations decisions to decisions with life-safety consequences (restraint authorization, isolation room approval, medication administration, emergency response)
+    • Leadership scope: From administrative staff supervision to direct supervision of 25+ Youth Workers + indirect supervision of interdisciplinary team (nurses, doctors, psychologists, social workers, teachers)
+    • Knowledge requirements: Shift from government processes to specialized knowledge of NCI, ACM, Children and Family Services Act, Provincial Standards, health care administration, behavioral management
+    • Working conditions: Shift from comfortable office environment to secure facility with exposure to physically/verbally aggressive residents, high sensory demands, rotating shifts, and psychological pressures
+    • Legal/regulatory accountability: New authority to issue Secure Treatment Certificates and LOAs under Children and Family Services Act; compliance with Provincial Standards and Child Abuse Protocol
+    • Crisis management: New accountability for managing crisis situations including restraint, isolation, elopement response, and serious incident investigations
+    • Acting Facility Manager role: Off-hours responsibility for entire facility operations, maintenance, and emergency decision-making
+
+Categories Affected:
+    • Accountabilities - MAJOR CHANGE: From executive office coordination to direct supervision and treatment plan implementation in secure care
+    • Knowledge & Experience - MAJOR CHANGE: From government administration to youth care, behavioral management, legal/regulatory compliance, health care coordination
+    • Decision Making - MAJOR CHANGE: From office operations to life-safety decisions with potential for serious injury/death consequences
+    • Customer & Relationship Management - MAJOR CHANGE: From senior government officials to youth residents, parents/guardians, law enforcement, legal representatives, health care providers
+    • Leadership - MAJOR CHANGE: From supporting executive leadership to direct supervision of 25+ staff and indirect supervision of interdisciplinary team
+    • Project Management - MAJOR CHANGE: From executive office projects to treatment plan implementation, crisis intervention coordination, resident reintegration, facility operations
+
+
+--------------------------------------------------------------------------------
+
+TOOL 3: CLASSIFICATION RECOMMENDATION
+================================================================================
+
+Position Title:
+  Unit Supervisor Secure Care
+
+Recommended Level:
+  EC-10
+
+Confidence:
+  82%
+
+Previous Level:
+  EC-10
+
+Change Context Used:
+  Yes
+
+Rationale:
+  This position appropriately remains classified at EC-10 (Manager/Consultant). The role demonstrates managerial direction over a small operating unit (25+ Youth Workers) with specialized knowledge in secure youth care, behavioral management, and crisis intervention. The position exhibits clear EC-10 characteristics: (1) provides managerial direction for a small function/operating unit of skilled support staff; (2) possesses specialized knowledge in secure care operations with understanding of business processes within the functional unit; (3) makes decisions within clearly defined policies and provincial standards with some autonomy on operational matters; (4) manages medium-complexity projects including treatment plan implementation and facility operations; (5) establishes and communicates goals for the team while coaching on problem-solving and teamwork. The position does not meet EC-11 criteria, which require broader/deeper knowledge across multiple business processes, lead roles in medium-sized projects, or decision-making in grey/ambiguous situations requiring significant judgment beyond defined procedures. While the position involves life-safety decisions and complex crisis management, these occur within clearly defined Provincial Standards, NCI protocols, and established procedures—not the ambiguous, grey-area decision-making characteristic of EC-11. The reclassification from EC-07 (Senior Executive Administrative Coordinator) to EC-10 represents a fundamental shift from administrative support to direct operational supervision, which is appropriately captured at the EC-10 level.
+
+Category Analysis:
+    Accountabilities: EC-10 level. The position provides managerial direction for a small operating unit (25+ Youth Workers) in a secure care facility. Key accountabilities include: direct supervision and professional development of staff; treatment plan implementation and ACM supervision; crisis intervention management; health care coordination including medication administration; facility operations and security; and compliance with multiple regulatory frameworks (Provincial Standards, Children and Family Services Act, OH&S Legislation). These represent operational management of a defined function rather than strategic direction across multiple functions. The position has clear scope boundaries (the secure care unit) and operates within established procedures and standards, consistent with EC-10's 'provides managerial direction for small function(s)/operating units' criterion. Does not reach EC-11 level which requires direction of multiple functions or operations not always covered by defined procedure.
+    Knowledge Experience: EC-10 level. The position requires specialized knowledge in: secure youth care operations; behavioral management and Non-Violent Crisis Intervention (NCI) techniques; treatment planning and case management; health care coordination; Provincial Standards for Residential Child-Caring Facilities; Children and Family Services Act; Child Abuse Protocol; and OH&S legislation. This represents 'knowledge in technical, scientific or specialized field with understanding of business processes, particularly those within functional unit' (EC-10 standard). The position demonstrates understanding of how the secure care unit operates within the broader Department of Community Services, but does not require the 'broad and/or deep knowledge of fundamental understanding of concepts, principles and practices' across multiple business processes required for EC-11. The specialized focus on secure care operations and facility management aligns with EC-10's specialized field knowledge.
+    Decision Making: EC-10 level. The position makes decisions within clearly defined policies, principles, and specific objectives: Provincial Standards for Residential Child-Caring Facilities, NCI protocols, Children and Family Services Act, facility policies, and established procedures. Examples include: approving use of Secure Isolation Rooms (within Provincial Standards); issuing Secure Treatment Certificates and LOAs (within statutory authority); deploying staff and managing performance; initiating crisis interventions (following NCI techniques); and coordinating health services (with on-site health personnel). While these decisions can have serious consequences (safety of youth and staff), they are made within clearly defined frameworks and established procedures. The position 'analyses specific issues, procedures & or products within clearly defined policies, principles & specific objectives' and 'provides recommendations on improving procedure & processes'—both EC-10 criteria. Does not meet EC-11 criterion of 'situations are often grey &/or ambiguous; significant judgement is required' beyond defined procedures.
+    Customer Relationship: EC-10 level. The position maintains extensive internal and external relationships: internal contacts with interdisciplinary team (nurses, doctors, psychologists, social workers, teachers, facility management); external contacts with police services, attorneys, legal aid counsel, parents/guardians, provincial ombudsman, community groups, and agency social workers. The position 'assists in the development & implementation of customer service enhancements in own functional area' through coordination with teachers on classroom behavior management, collaboration with clinical services on program delivery, and liaison with community agencies on resident reintegration. The position 'seeks out new avenues for building internal & external relationships; maintains on going contact with existing relationships; coaches others on relationship management'—consistent with EC-10. The scope is primarily within the functional unit (secure care operations) rather than cross-functional or divisional relationship building required for higher levels.
+    Leadership: EC-10 level. The position 'establishes & communicates common goals & direction for team, coaches others on how to enhance communication, problem solving team work & innovation.' Specific evidence includes: direct supervision of 25+ Youth Workers; indirect supervision of interdisciplinary team; role modeling of problem-solving strategies and techniques; delegation of assignments; participation in recruitment and performance evaluation; promotion of diversity and healthy workplace; and demonstration of leadership competencies. The position reports to Facility Manager/Senior Unit Supervisor (consistent with EC-10's 'Usually reports to a Manager or Director'). The leadership scope is bounded to the unit level rather than the broader functional area or cross-functional coordination required for EC-11. The position develops staff through supervision and coaching within established frameworks rather than providing strategic direction or vision.
+    Project Management: EC-10 level. The position manages medium-complexity projects within the functional unit: treatment plan implementation for multiple residents; crisis intervention coordination; facility operations management; resident reintegration initiatives; and health care service coordination. The position 'manages medium complex to moderately complex projects, accountable for quality of work delivered by external suppliers, as applicable; identifies resources.' Examples include: supervising implementation of individualized treatment plans; coordinating psycho-educational programming; managing facility schedules and operations; and overseeing community/agency involvement. Projects are 'single focused & cross functional; within one department although work may cross over into other departments.' The position does not lead major province-wide or cross-departmental initiatives, nor does it provide strategic direction to project initiatives—characteristics of EC-11 and above.
+
+Supporting Evidence:
+    • Direct supervision of 25+ Youth Workers with responsibility for professional development, deployment, and performance management—clear EC-10 managerial direction criterion
+    • Decision-making authority bounded by clearly defined Provincial Standards, NCI protocols, Children and Family Services Act, and facility policies—EC-10 'analyses specific issues within clearly defined policies, principles & specific objectives' rather than EC-11's grey/ambiguous situations
+    • Specialized knowledge in secure youth care operations, behavioral management, and crisis intervention within a defined functional unit—EC-10 'knowledge in technical, scientific or specialized field with understanding of business processes within functional unit'
+    • Life-safety decisions (restraints, isolation rooms, medication administration, crisis response) made within established protocols and procedures, not requiring the independent judgment in ambiguous situations characteristic of EC-11
+    • Scope limited to single operating unit (secure care facility) rather than multiple functions or division-wide operations required for EC-11
+    • Reports to Facility Manager/Senior Unit Supervisor, consistent with EC-10 reporting structure to Manager or Director
+    • Management of medium-complexity projects (treatment plans, facility operations, reintegration) within one department, consistent with EC-10 project management scope
+
+Alternative Levels:
+    • EC-09
+    • EC-11
+
+Comparable Positions:
+    • Unit Supervisor in residential care facilities—typically EC-10 when supervising 20+ direct reports with operational responsibility
+    • Facility Operations Manager in secure/correctional settings—typically EC-10 when managing single facility operations within defined standards
+    • Program Supervisor in youth services—typically EC-10 when supervising staff and managing treatment/program delivery within established frameworks

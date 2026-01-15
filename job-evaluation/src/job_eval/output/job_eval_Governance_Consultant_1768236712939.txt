@@ -1,0 +1,44 @@
+JOB EVALUATION ANALYSIS REPORT
+================================================================================
+
+CLASSIFICATION RECOMMENDATION
+================================================================================
+
+Position Title:
+  Governance Consultant
+
+Recommended Level:
+  EC-10
+
+Confidence:
+  78%
+
+Rationale:
+  The Governance Consultant position demonstrates clear managerial and specialist responsibilities that align with EC-10 classification. The role provides direction and oversight of ABC appointment processes across government, manages a corporate database, develops processes and guidelines, conducts policy research, and delivers training to multiple stakeholder groups. The position operates with substantial autonomy in managing complex administrative and governance functions, reports to a Director, and influences policy and process improvements across government departments. While the role does not directly supervise staff, it exercises significant technical expertise and advisory authority over ABC coordinators across government. The decision-making authority is bounded by legal and Cabinet-level constraints, and the role focuses on operational management of a specific function rather than broader strategic direction of multiple functions. This aligns with EC-10's profile of providing managerial direction for a specific function with highly skilled support resources, managing moderately complex projects, and providing recommendations on improving procedures and processes.
+
+Category Analysis:
+    Accountabilities: EC-10 level. The position provides managerial direction for a specific business function (ABC recruitment and appointment processes) across government. Key responsibilities include: managing all recruitment and appointment steps, developing and maintaining processes/guidelines/procedural manuals, conducting research and policy analysis, leading training initiatives, managing the corporate ABC database, and communicating recommendations to senior officials. These are not routine clerical tasks (EC-01 to EC-04) nor are they supervisory of direct reports. The role demonstrates the 'applies academic knowledge to job/role accountabilities' and 'provides support on specific portions of larger projects' characteristic of EC-10, though the scope is broader than EC-06/EC-07 which focus on smaller portions. The position manages a complete functional area (ABC governance) rather than leading a work group.
+    Knowledge Experience: EC-10 level. The position requires 'general knowledge of a specific product, process, customer group' and understanding of 'processes on either side of functional area.' The Governance Consultant must possess: comprehensive knowledge of ABC legislation and statutory requirements, understanding of recruitment and appointment processes, knowledge of government operations and departmental structures, awareness of best practices across Canadian jurisdictions, and expertise in governance frameworks. The description indicates the need to 'keep up to date on current legislation, ABC membership requirements' and 'liaise across Canada to ensure ECO is kept abreast of current best practices.' This demonstrates the specialized knowledge expected at EC-10 rather than the broader strategic knowledge of EC-11+ or the more limited procedural knowledge of EC-08/EC-09.
+    Decision Making: EC-10 level. The position demonstrates decision-making authority within defined parameters. The role 'identifies and resolves most processing problems' related to ABC appointments, makes recommendations throughout the recruitment process, and flags issues to Executive Council with potential solutions. However, final decisions on appointments and legal issues are explicitly referred to Executive Council/Cabinet level. The position requires 'small variations in applications' and the ability to 'identify things which are out of sort,' consistent with EC-10. The role does not have the broader autonomy of EC-11+ (which resolves 'most issues of an operational nature') nor the highly structured decision-making of EC-08/EC-09. The incumbent must 'independently review the status of ABCs in the province, advise on action to be taken' and 'quickly liaise with appropriate persons,' demonstrating autonomous judgment within scope.
+    Customer Relationship: EC-10 level. The position maintains regular contact with multiple stakeholder groups: Premier's Office, Deputy Minister, ABC Coordinators across government, Chairs/Vice Chairs of agencies/boards/commissions, and external contacts across Canada. The role 'ensures that all customer contacts support and grow pre-established relationships' and 'becomes more self-directed in dealing with internal and external customers; updates customers on upcoming events, issues or changes.' The position communicates with senior officials regularly, provides advice and guidance, and liaises on issues related to review, selection and appointment processes. This demonstrates the customer relationship management expected at EC-10 rather than the more limited contacts of EC-08/EC-09 or the strategic relationship-building of EC-11+.
+    Leadership: EC-10 level. While the position does not directly supervise staff, it exercises leadership through: developing and leading training for selection panel members, board members, and ABC coordinators across government; establishing processes and guidelines that others follow; providing advice and guidance to ABC coordinators; and influencing policy and process improvements. The role 'takes initiative in learning about the organization and develops external contacts; actively seeks information and guidance to improve own performance.' The position demonstrates the 'takes initiative' and 'develops external contacts' characteristics of EC-10 rather than the more directive leadership of EC-11+ or the more limited peer collaboration of EC-08/EC-09. The role is not supervisory of direct reports, which distinguishes it from EC-11 and above.
+    Project Management: EC-10 level. The position 'begins to manage projects; may be asked to review work delivered by external suppliers.' Key project-related responsibilities include: developing and maintaining processes and procedural manuals, conducting research and analysis, developing and leading training programs, and managing the corporate ABC database. These represent management of moderately complex, ongoing operational projects rather than small projects (EC-07) or medium to complex projects (EC-11+). The role involves 'planning, evaluating, directing, and tracking' of the ABC appointment process across government, which is a significant operational project. The position does not demonstrate the cross-functional, strategic project leadership of EC-11+ or the limited project involvement of EC-08/EC-09.
+
+Supporting Evidence:
+    • Provides managerial direction for a specific business function (ABC recruitment/appointment processes) across government without direct staff supervision, consistent with EC-10 profile
+    • Develops and maintains processes, guidelines, and procedural manuals; conducts policy research and analysis; makes recommendations to senior leadership on improving procedures and processes - core EC-10 accountabilities
+    • Manages corporate ABC database and coordinates ABC coordinators across government, demonstrating functional management authority without supervisory responsibility
+    • Decision-making authority is bounded by legal constraints and Cabinet-level final approval, with role identifying and resolving processing problems within defined scope - EC-10 level autonomy
+    • Extensive stakeholder management across government and external jurisdictions with regular communication to senior officials (Secretary to Clerk, Deputy Minister, Executive Council)
+    • Develops and leads training programs for multiple stakeholder groups (selection panels, board members, ABC coordinators) demonstrating technical expertise and advisory authority
+    • Position operates with substantial independence ('works very independently,' 'independent thinking in administration and leadership') but within functional scope rather than strategic/divisional scope
+    • No direct staff supervision, which distinguishes from EC-11+ managerial levels
+
+Alternative Levels:
+    • EC-09
+    • EC-11
+
+Comparable Positions:
+    • Policy Analyst/Consultant managing a specific government function with cross-departmental coordination
+    • Coordinator/Specialist providing technical direction and process management across multiple departments
+    • Functional Manager overseeing a specific business process without direct supervisory responsibilities

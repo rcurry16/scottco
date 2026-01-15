@@ -1,0 +1,27 @@
+Loading position description...
+Analyzing change materiality for EC-10 position...
+{
+  "should_reevaluate": true,
+  "confidence": 88,
+  "current_level": "EC-10",
+  "likely_new_level_range": "EC-10 to EC-11",
+  "rationale": "The position description has been materially elevated across multiple classification categories, moving beyond typical EC-10 expectations. While EC-10 positions 'may take a leader role in small projects or routine operations,' this revised description explicitly positions the PRA as leading complex policy formulation, implementation, and research initiatives—a scope that approaches EC-11 expectations. Key elevations include: (1) Accountabilities now include leading comprehensive policy analysis and research, building strategic stakeholder relationships, and providing mentorship—moving from supporting others to actively leading and developing colleagues; (2) Decision-making authority has expanded from 'analyses specific issues within clearly defined policies' to leading development of new policy and legislative frameworks addressing 'complex and emerging issues'; (3) Leadership responsibilities now explicitly include mentorship and contributing to organizational culture—typical of EC-11 rather than EC-10; (4) Project management scope elevated from managing 'medium complex to moderately complex projects' to leading development of policy and legislative frameworks. The language shift from 'advising' to 'provides high-level analysis, strategic advice, and well-developed recommendations to inform decision-making by senior leadership' and from 'may be required' to 'is frequently called upon' indicates increased autonomy and strategic influence. However, the position remains within a single functional area (policy and research) under clear supervisory direction (Director approval required for expenditures and final recommendations), which prevents classification at EC-11 or higher with certainty. The mentorship component is situational rather than permanent, and no direct reports are managed. This positions the role at the upper boundary of EC-10 or lower EC-11, warranting formal re-evaluation to determine appropriate placement.",
+  "key_factors": [
+    "Explicit elevation from 'conducting' to 'leading' complex policy formulation and implementation initiatives—moves beyond EC-10 'may take a leader role' language",
+    "New mentorship accountability with responsibility to contribute to 'culture of analytical rigor and innovation'—typical of EC-11 leadership expectations, not routine EC-10",
+    "Decision-making authority expanded to lead development of new policy and legislative frameworks addressing complex and emerging issues—exceeds EC-10 'analyses specific issues within clearly defined policies'",
+    "Strategic relationship-building accountability added as core responsibility—elevates from EC-10 'assists in development' to active leadership of stakeholder engagement",
+    "Requirement for 'deep subject-matter expertise' and 'sophisticated research and environmental scanning'—reflects deeper specialization expected at EC-11",
+    "Increased autonomy in determining methodology and approach to assignments—moves toward EC-11 'significant autonomy' language",
+    "Scope of influence expanded to inform decision-making by Associate Deputy Minister, CEO, and Minister—higher-level strategic impact than typical EC-10"
+  ],
+  "categories_affected": [
+    "Accountabilities - elevated from supporting/assisting to leading complex initiatives; new mentorship responsibility",
+    "Knowledge & Experience - requirement for 'deep' expertise and sophisticated research capabilities; new requirement to mentor others on methodologies",
+    "Decision Making - authority expanded from analyzing within defined policies to leading development of frameworks for complex/emerging issues",
+    "Customer & Relationship Management - elevated from 'working with' to 'collaborates with' and 'builds/maintains strategic relationships' as core accountability",
+    "Leadership - new explicit mentorship responsibility and culture-building contribution; elevated from supporting to leading implementation",
+    "Project Management - emphasis shifted from 'plans, leads, coordinates, or supports' to leading development of policy and legislative frameworks"
+  ],
+  "risk_assessment": "high"
+}

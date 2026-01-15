@@ -1,0 +1,180 @@
+Extracting text from PDFs...
+Analyzing differences with Claude...
+╭───────────────────────────── Comparison Summary ─────────────────────────────╮
+│ The position description has been updated to reflect a more strategic and    │
+│ leadership-oriented role. Key changes emphasize leading complex initiatives, │
+│ providing high-level strategic advice, developing deep expertise, building   │
+│ stakeholder relationships, and mentoring colleagues. The language throughout │
+│ has been elevated to reflect greater autonomy, complexity, and influence.    │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Overall Significance: MAJOR
+
+═══ Changes by Section ═══
+
+OVERALL PURPOSE
+  ~ Modifications:
+    • providing comprehensive policy formulation -> leading complex policy 
+formulation, implementation, and research initiatives
+    • advising senior leadership -> provides high-level analysis, strategic 
+advice, and well-developed recommendations to inform decision-making
+    • working with internal and external stakeholders -> collaborates with 
+internal and external partners to advance the government's regulatory 
+modernization and consumer protection objectives
+
+KEY RESPONSIBILITIES
+  ~ Modifications:
+    • Develops and maintains subject-matter expertise, as required -> Develops 
+and maintains deep subject-matter expertise
+    • Added new responsibility: Leads comprehensive policy analysis and research
+to evaluate regulatory impacts, identify improvement opportunities, and 
+recommend evidence-based solutions
+    • Added new responsibility: Builds and maintains strategic relationships 
+with key stakeholders to support effective implementation of legislative and 
+program changes. Provides guidance and mentorship to colleagues on policy 
+development processes and research methodologies, contributing to a culture of 
+analytical rigor and innovation
+
+SCOPE - Innovation
+  ~ Modifications:
+    • is regularly called upon to conduct design new policies -> is frequently 
+called upon to design and lead the development of new or revised policy and 
+legislative frameworks that address complex and emerging issues
+    • must develop recommendations and advice by performing research, and by 
+applying constructive and creative thinking -> develops forward-looking 
+recommendations and advice through sophisticated research, environmental 
+scanning, and the application of creative and strategic thinking
+    • may be required to adapt consumer protection programs -> may be required 
+to assess and adapt innovative consumer protection programs
+
+═══ Classification Impact ═══
+
+Accountabilities:
+  • New accountability to lead comprehensive policy analysis and research to 
+evaluate regulatory impacts
+  • New accountability to build and maintain strategic relationships with key 
+stakeholders
+  • New accountability to provide guidance and mentorship to colleagues on 
+policy development processes and research methodologies
+  • Elevated from 'conducting' to 'leading' complex policy formulation and 
+implementation initiatives
+
+Knowledge & Experience:
+  • Requirement elevated from 'subject-matter expertise, as required' to 'deep 
+subject-matter expertise' across regulatory areas
+  • New requirement for sophisticated research and environmental scanning 
+capabilities
+  • New requirement for knowledge of policy development processes and research 
+methodologies to mentor others
+
+Decision Making:
+  • Elevated language from 'advising' to 'provides high-level analysis, 
+strategic advice, and well-developed recommendations to inform decision-making'
+  • Shift from reactive to proactive: 'frequently called upon to design and 
+lead' rather than 'regularly called upon to conduct design'
+
+Customer & Relationship Management:
+  • New explicit accountability to build and maintain strategic relationships 
+with key stakeholders
+  • Expanded scope from working with stakeholders to leading stakeholder 
+engagement for implementation of legislative and program changes
+
+Leadership:
+  • New mentorship responsibility: 'Provides guidance and mentorship to 
+colleagues on policy development processes and research methodologies'
+  • New leadership accountability: 'leads the development of new or revised 
+policy and legislative frameworks'
+  • Contribution to organizational culture: 'contributing to a culture of 
+analytical rigor and innovation'
+
+Project Management:
+  • Elevated from supporting/coordinating implementation to leading 
+implementation of policy, legislative, program, or regulatory changes
+  • New responsibility for leading comprehensive policy analysis and research 
+initiatives
+
+
+================================================================================
+Running Revaluation Gauge (Tool 1.2)...
+================================================================================
+
+Loading position description...
+Analyzing change materiality for EC-10 position...
+╭───────────────────────── Revaluation Recommendation ─────────────────────────╮
+│ YES - Re-evaluation Recommended                                              │
+│                                                                              │
+│ Current Level: EC-10                                                         │
+│ Expected New Range: EC-10 to EC-11                                           │
+│ Confidence: 88%                                                              │
+│                                                                              │
+│ The position description has been materially elevated across multiple        │
+│ classification categories, moving beyond typical EC-10 expectations. While   │
+│ EC-10 positions 'may take a leader role in small projects or routine         │
+│ operations,' this revised role now explicitly 'leads complex policy          │
+│ formulation, implementation, and research initiatives' and 'frequently       │
+│ called upon to design and lead the development of new or revised policy and  │
+│ legislative frameworks that address complex and emerging issues.' This       │
+│ represents a shift from supporting/advising to leading strategic             │
+│ initiatives. The addition of formal mentorship responsibilities ('Provides   │
+│ guidance and mentorship to colleagues on policy development processes and    │
+│ research methodologies, contributing to a culture of analytical rigor and    │
+│ innovation') and strategic stakeholder relationship building elevates        │
+│ leadership expectations beyond EC-10 baseline. The language shift from       │
+│ 'advising senior leadership' to 'provides high-level analysis, strategic     │
+│ advice, and well-developed recommendations to inform decision-making' by     │
+│ ADM/CEO/Minister, combined with new accountability for comprehensive policy  │
+│ analysis and research leadership, suggests the role now operates at the      │
+│ lower-to-mid range of EC-11 expectations. However, the position remains      │
+│ within a single functional area (policy/research) without direct permanent   │
+│ reports, which constrains elevation to EC-11 ceiling. The sophistication of  │
+│ decision-making (environmental scanning, forward-looking recommendations,    │
+│ complex/emerging issues) and expanded leadership scope (mentorship,          │
+│ stakeholder strategy) warrant formal re-evaluation.                          │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Risk Assessment: HIGH
+
+Classification Categories Affected:
+  • Accountabilities: New leadership of comprehensive policy analysis/research 
+initiatives; new strategic stakeholder relationship building; new 
+mentorship/guidance responsibility
+  • Knowledge & Experience: Elevated from 'subject-matter expertise, as 
+required' to 'deep subject-matter expertise'; new requirement for sophisticated 
+research and environmental scanning; new requirement to mentor others on 
+methodologies
+  • Decision Making: Elevated from 'advising' to 'provides high-level analysis, 
+strategic advice'; shift from reactive to proactive ('frequently called upon to 
+design and lead'); increased autonomy in methodology selection
+  • Customer & Relationship Management: New explicit accountability to build and
+maintain strategic relationships; expanded from working with stakeholders to 
+leading stakeholder engagement for implementation
+  • Leadership: New formal mentorship responsibility; new leadership 
+accountability for policy/legislative framework development; new contribution to
+organizational culture
+  • Project Management: Elevated from supporting/coordinating implementation to 
+leading implementation of policy/legislative/program/regulatory changes; new 
+responsibility for leading comprehensive policy analysis and research 
+initiatives
+
+Key Factors:
+  • Shift from 'conducting' to 'leading' complex policy formulation and 
+implementation—moves beyond EC-10's 'may take a leader role' to consistent 
+leadership accountability
+  • New explicit mentorship and guidance responsibility with organizational 
+culture contribution—elevates leadership beyond EC-10 baseline of 'coaches 
+others' to formal development role
+  • Elevated decision-making from 'advising' to 'provides high-level analysis, 
+strategic advice, and well-developed recommendations to inform decision-making' 
+for senior executives (ADM/CEO/Minister)—exceeds EC-10's 'provides 
+recommendations on improving procedure & processes'
+  • New accountability for strategic stakeholder relationship building and 
+implementation leadership—moves beyond EC-10's 'assists in development & 
+implementation' to leading implementation
+  • Requirement for 'deep subject-matter expertise' and 'sophisticated research,
+environmental scanning' capabilities—aligns with EC-11's 'broad &/or deep 
+knowledge' and 'deep specialization in complex fields'
+  • Proactive vs. reactive framing: 'frequently called upon to design and lead' 
+vs. previous 'regularly called upon to conduct'—suggests greater autonomy and 
+strategic influence
+  • No change in direct reporting structure or permanent direct 
+reports—constrains elevation and suggests EC-11 lower range rather than EC-12

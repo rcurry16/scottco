@@ -1,0 +1,223 @@
+JOB EVALUATION ANALYSIS REPORT
+================================================================================
+
+TOOL 1: POSITION COMPARISON
+================================================================================
+
+Original Document:
+  /tmp/tmp3kfbdvdx.docx
+
+Updated Document:
+  /tmp/tmpx16fmoip.docx
+
+Summary:
+  The position has been substantially restructured with a title change from 'Inspector Specialist 3' to 'Fisheries Inspector', expanded scope to include recreational fishing and live fish possession oversight, enhanced enforcement capabilities, and significantly more detailed accountability frameworks. The role now emphasizes independent decision-making, inter-agency collaboration, and the critical economic and public safety context of Nova Scotia's seafood industry.
+
+Overall Significance:
+  MAJOR
+
+Changes by Section:
+    Overall Purpose:
+      Modifications:
+        • Title: 'Inspector Specialist' -> 'Fisheries Inspector'
+        • Reporting to: 'Manager of Fisheries Inspection and Compliance' -> 'Manager of Fisheries Licensing and Compliance'
+        • Scope expanded: Added 'recreational fishing' and 'possession of live fish' to focus areas
+        • Removed specific reference to 'mobile vendors selling raw unprocessed fish' as standalone focus
+        • Removed reference to 'Food Safety Regulations made pursuant to the Health Protection Act'
+        • Removed reference to 'Conservation Officer duly appointed under the Act' and replaced with 'holds the necessary appointments (e.g., Special Constable)'
+        • Removed reference to 'trained in the use of intermediate weapons and soft hand controls'
+        • Added emphasis on 'deter illegal activity and repeat offenders'
+        • Added: 'liaises with, provides information to, and collaborates with other agencies and departments with jurisdiction over the fisheries supply chain'
+    Key Responsibilities:
+      Additions:
+        • Conduct background checks and determine compliance status for companies and individuals
+        • Complete legal documents, prepare Crown briefs, packages and occurrence reports
+        • Prepare letters to licence holders in response to requests for information
+        • Enter information into electronic databases
+        • Liaise closely with other agencies with jurisdiction along the fisheries supply chain (DFO Canada, Environment Canada, CFIA, Canada Border Services Agency, Canada Revenue Agency and other Provincial enforcement groups)
+        • Specific responsibilities for recreational fishing oversight under FCRA and Live Fish Possession Regulations
+        • Check harvester permit cards (marine plant harvesting)
+        • Verify records and harvested weights (marine plant harvesting)
+        • Follow-up with fish harvesters who have not paid mandatory annual dues to accredited organizations
+        • Attend training, conferences and seminars to remain current with policies, procedures and relevant legislation
+        • Explicit statement about Conservation Officers' role and joint activities with Department of Natural Resources
+      Deletions:
+        • Specific responsibility to 'assist applicants in applying for mobile vendor permits'
+        • Specific responsibility to 'conduct pre-inspections of vehicles to be used by mobile vendors'
+        • Specific responsibility to 'conduct scheduled and unscheduled onsite inspections of mobile vendors'
+        • Reference to 'Food Safety Regulations made pursuant to the Health Protection Act' in mobile vendor context
+        • Separate detailed section on mobile vendor compliance
+      Modifications:
+        • Enforcement actions: Added 'summary offence tickets (SOTs)' and 'long-form informations' to list of enforcement tools
+        • Enforcement actions: 'violation tickets' removed from explicit list (replaced with SOTs and long-form informations)
+        • Aquaculture responsibilities: Changed from 'assist with the inspection' to 'conduct or assist with aquaculture site inspections and audits'
+        • Marine plant harvesting: 'perform business record audits' -> 'Collect field harvest data and verify records and harvested weights'
+        • Consolidated all responsibilities under unified framework organized by regulatory area rather than separate sections
+    People Management:
+      Additions:
+        • Operationally, reports to the Compliance and Enforcement Supervisor
+    Scope - Contacts:
+      Modifications:
+        • Added 'Public Works' to provincial departments contact list
+        • Changed 'Environment' to 'Environment and Climate Change'
+        • Changed 'Canada Customs and Revenue' to 'Canada Customs and Revenue, Canada Border Services'
+        • Changed 'Fisheries Loan Board stafT' to 'Fisheries Loan Board staff' (typo correction)
+    Innovation:
+      Additions:
+        • May provide advice and/or practical, experience-based insight into program and policy development.
+    Decision Making:
+      Additions:
+        • Dealing with difficult or potentially confrontational situations requires ability to think clearly and quickly in stressful situations. Some decisions made by inspectors may require logistical problem solving, for example seizing fish.
+        • Inspectors work independently with minimal on-site supervision, normally in locations remote from their direct supervisor.
+        • Inspectors' decisions must be supported by appropriate education, experience and knowledge of relevant legislation and regulations including applicable federal laws.
+        • Inspectors are required to be appointed as special constables and must have a thorough knowledge of inspection and investigation techniques and procedures, proper evidence collection and handling, charge laying procedure, and court processes.
+        • Responsible for the safe operation, custody and inventory of Department equipment.
+        • Responsible to maintain continuity, physical integrity and proper storage of seized evidence which may be required for court cases.
+    Impact of Results:
+      Additions:
+        • Nova Scotia is Canada's largest seafood exporter, with lobster, crab, scallops, shrimp and halibut being its top species. Its exports are valued at approximately $2.5 billion annually. The lobster fishery is one of the most lucrative in Canada and has attracted 'bad actors' and organized crime. On average, it is estimated that 10 to 30% of landings and purchases go unreported.
+        • Results achieved through the effective implementation and delivery of compliance and enforcement programs contributes to the achievement of maintaining product quality, the health and safety of seafood consumers, and the orderly development of the fisheries sector (e.g., legally sourced, purchased and processed fish; sustainable fish; good reputation).
+    Working Conditions - Physical Effort:
+      Modifications:
+        • Minimal -> Moderate
+        • Added custom description: 'Work activities involve office work and field work. Office work entails light physical effort, spending time in comfortable positions with frequent opportunity to move about at will. Field work may include loading gear in boats, carrying boxes of files, moving totes/containers, and other activities that require a moderate physical effort.'
+    Working Conditions - Physical Environment:
+      Modifications:
+        • Minimal -> Moderate
+        • Added custom description: 'When not in the office, field work involves a mix of weather conditions and temperatures, various terrains, working near water and loud or heavy equipment. May encounter aggressive individuals.'
+    Working Conditions - Sensory Attention:
+      Modifications:
+        • Changed from standard description to custom description (content remains substantively similar)
+    Working Conditions - Psychological Pressures:
+      Modifications:
+        • Changed from standard description to custom description
+        • Modified: 'unpleasant public or client contacts' -> 'unpleasant public or client interactions'
+
+Classification Relevant Changes:
+    Accountabilities:
+      • Expanded scope to include recreational fishing and live fish possession oversight
+      • Added background checks and compliance status determination for companies and individuals
+      • Added preparation of Crown briefs, legal documents, and occurrence reports
+      • Added responsibility for maintaining evidence custody, continuity and storage for court cases
+      • Added responsibility for safe operation and inventory of Department equipment
+      • Added requirement to attend training, conferences and seminars to remain current
+      • Removed mobile vendor permit assistance and pre-inspection responsibilities
+      • Consolidated accountability framework across all regulatory areas (fish buying/selling/processing, aquaculture, marine plants, recreational fishing, FHOSA)
+    Knowledge Experience:
+      • Explicit requirement for appointment as Special Constable (previously 'Conservation Officer')
+      • Explicit requirement for thorough knowledge of inspection and investigation techniques and procedures
+      • Explicit requirement for knowledge of proper evidence collection and handling
+      • Explicit requirement for knowledge of charge laying procedure and court processes
+      • Explicit requirement for knowledge of applicable federal laws in addition to provincial regulations
+      • Removed reference to 'intermediate weapons and soft hand controls' training and certification
+    Decision Making:
+      • Expanded emphasis on independent decision-making: 'work independently with minimal on-site supervision, normally in locations remote from their direct supervisor'
+      • Added requirement to handle difficult or potentially confrontational situations with ability to think clearly and quickly in stressful situations
+      • Added logistical problem-solving requirements (e.g., seizing fish)
+      • Decisions must be supported by appropriate education, experience and knowledge of relevant legislation and regulations
+      • Responsible for custody and inventory decisions regarding Department equipment
+      • Responsible for decisions regarding evidence handling and storage for court cases
+    Customer Relationship:
+      • Enhanced inter-agency collaboration: explicit requirement to 'liaise closely with other agencies with jurisdiction along the fisheries supply chain'
+      • Added specific agencies for collaboration: Canada Border Services Agency (new), expanded list of provincial departments
+      • Added responsibility to provide information to and collaborate with other agencies and departments
+      • Added responsibility to participate in joint operations planning with other agencies
+      • Removed direct customer service element (mobile vendor permit assistance)
+      • Emphasis shifted from assisting applicants to enforcing compliance
+    Project Management:
+      • Participate in development of annual work plans (unchanged but now more explicitly stated)
+      • Schedule work activities in support of annual work plans (unchanged but now more explicitly stated)
+      • Added participation in joint operations planning with other agencies
+
+
+--------------------------------------------------------------------------------
+
+TOOL 2: RE-EVALUATION GAUGE
+================================================================================
+
+Should Re-evaluate:
+  YES
+
+Confidence:
+  92%
+
+Current Level:
+  EC-Unknown
+
+Likely New Level Range:
+  EC-11 to EC-12
+
+Risk Assessment:
+  HIGH
+
+Rationale:
+  The position has undergone substantial structural and scope elevation that materially exceeds typical EC-Unknown expectations. Key elevating factors: (1) Explicit requirement for Special Constable appointment with thorough knowledge of investigation techniques, evidence handling, charge-laying procedures, and court processes—this represents a significant legal/enforcement authority increase; (2) Independent decision-making in remote locations with minimal supervision, handling confrontational situations requiring rapid judgment in stressful contexts; (3) Responsibility for evidence custody, continuity, and storage for court cases—a critical accountability with legal implications; (4) Expanded inter-agency collaboration across federal agencies (CBSA, CFIA, DFO, CRA) requiring coordination and information-sharing at policy/operational levels; (5) Preparation of Crown briefs and legal documents requiring legal knowledge beyond standard inspection; (6) Consolidated accountability framework across five regulatory areas (fish buying/selling/processing, aquaculture, marine plants, recreational fishing, FHOSA) with explicit enforcement authority; (7) Enhanced physical and psychological working conditions (moderate vs. minimal) reflecting field enforcement realities. These changes collectively indicate a position requiring higher-level judgment, legal knowledge, inter-agency authority, and independent decision-making than typical EC-Unknown baseline. The role has shifted from compliance inspection toward enforcement investigation with prosecutorial support elements.
+
+Key Factors:
+    • Explicit Special Constable appointment requirement with thorough knowledge of investigation, evidence handling, and court procedures—represents legal authority elevation
+    • Independent decision-making in remote locations with minimal on-site supervision, handling confrontational situations requiring rapid judgment
+    • Responsibility for evidence custody, continuity, and storage for court cases—critical legal accountability
+    • Preparation of Crown briefs and legal documents requiring specialized legal knowledge
+    • Expanded inter-agency collaboration with federal agencies (CBSA, CFIA, DFO, CRA) at operational/policy levels
+    • Consolidated enforcement authority across five regulatory areas with explicit SOT and long-form information issuance
+    • Shift from compliance assistance (mobile vendor permits) to enforcement investigation and prosecution support
+    • Enhanced working conditions (moderate physical/environmental) reflecting field enforcement realities
+
+Categories Affected:
+    • Accountabilities—significantly expanded to include legal document preparation, Crown briefs, evidence management, background checks, and consolidated multi-regulatory enforcement
+    • Knowledge & Experience—elevated requirements for Special Constable appointment, investigation techniques, evidence handling, charge-laying procedures, court processes, and federal law knowledge
+    • Decision Making—substantially enhanced with emphasis on independent judgment in remote locations, handling confrontational situations, logistical problem-solving (seizures), and evidence custody decisions
+    • Customer & Relationship Management—shifted from customer service (permit assistance) to inter-agency collaboration with federal agencies on enforcement, information-sharing, and joint operations
+    • Project Management—added joint operations planning with other agencies (minor elevation)
+    • Working Conditions—physical and psychological environment elevated from minimal to moderate
+
+
+--------------------------------------------------------------------------------
+
+TOOL 3: CLASSIFICATION RECOMMENDATION
+================================================================================
+
+Position Title:
+  Fisheries Inspector
+
+Recommended Level:
+  EC-11
+
+Confidence:
+  88%
+
+Previous Level:
+  EC-Unknown
+
+Change Context Used:
+  Yes
+
+Rationale:
+  The Fisheries Inspector position demonstrates substantial elevation in scope, authority, and complexity that aligns with EC-11 classification standards. The role combines specialized enforcement authority (Special Constable appointment), independent decision-making in complex regulatory environments, inter-agency collaboration, and significant legal/investigative responsibilities. Key elevating factors include: (1) Explicit Special Constable appointment with authority to conduct investigations, seize property, execute search warrants, lay charges, and prepare legal documents for court proceedings—representing significant legal enforcement authority; (2) Independent decision-making in remote locations with minimal supervision, handling confrontational situations, evidence custody decisions, and complex compliance determinations; (3) Broad accountability across multiple regulatory frameworks (FCRA, FHOSA, aquaculture, marine plants, recreational fishing) consolidated into single role; (4) Inter-agency collaboration with federal agencies (DFO, CFIA, CBSA, CRA) on enforcement, information-sharing, and joint operations; (5) Preparation of Crown briefs, legal documents, occurrence reports, and testimony in court proceedings. The position exceeds EC-10 (which involves managerial direction of small functions with routine operations) because it emphasizes specialized technical/enforcement expertise, complex investigative judgment, and legal authority rather than managerial oversight. It does not reach EC-12 (which requires managerial direction of business processes/functions or significant revenue/cost contributions) as the role is individual-contributor focused without supervisory responsibilities. EC-11 appropriately reflects the broad and deep knowledge required in complex enforcement fields, significant judgment in ambiguous situations, and technical specialization in fisheries law and investigation procedures.
+
+Category Analysis:
+    Accountabilities: EC-11 level. The position carries substantial individual accountability across multiple regulatory domains (fish buying/selling/processing, aquaculture, marine plants, recreational fishing, FHOSA). Responsibilities include conducting investigations, executing search warrants, seizing evidence, preparing legal documents, consulting with Crown Counsel, and attending court—all requiring independent judgment and specialized expertise. The consolidated accountability framework across all regulatory areas represents complexity beyond EC-10 (which involves managerial direction of small functions). The role does not include supervisory responsibility over staff, distinguishing it from EC-12 managerial positions. The breadth of technical accountability and requirement to provide input into policy/legislation development aligns with EC-11's expectation of 'takes a lead role in small to medium sized projects or routine operations' and 'acts as technical resource & advisor.'
+    Knowledge Experience: EC-11 level. The position explicitly requires Special Constable appointment with thorough knowledge of investigation techniques, evidence handling, charge-laying procedures, court processes, and federal fisheries law. This represents 'broad &/or deep knowledge &/or fundamental understanding of concepts, principles & practices' and 'deep specialization in complex fields of knowledge' as defined in EC-11. The requirement to interpret and respond to inquiries about legislation from departmental staff, client groups, and provincial/federal law enforcement personnel demonstrates expert-level knowledge. The need to remain current through training, conferences, and seminars, combined with participation in policy development, indicates continuous advancement of specialized knowledge. This exceeds EC-10 (which requires 'knowledge in technical, scientific or specialized field') by demonstrating deeper specialization and broader legal/investigative expertise.
+    Decision Making: EC-11 level. The position requires analysis of complex issues where 'situations are often grey &/or ambiguous; significant judgement is required.' Examples include: determining compliance status for companies/individuals based on background checks and records audits; deciding appropriate enforcement actions (warnings, SOTs, informations, Ministerial Orders) based on investigation findings; recommending punitive actions and penalties; executing search warrants and seizing property; and consulting with Crown Counsel on legal strategy. The role operates with substantial autonomy in remote locations with minimal supervision, making independent judgments on confrontational situations and evidence custody decisions. The requirement to 'analyze information and evidence collected in order to recommend appropriate punitive action and penalty' demonstrates decision-making authority beyond routine application of rules. This exceeds EC-10 (which involves 'analyses specific issues, procedures & or products within clearly defined policies') because situations frequently lack clear procedural guidance.
+    Customer Relationship: EC-11 level. The position involves sophisticated inter-agency collaboration with federal agencies (DFO, CFIA, CBSA, CRA, Environment Canada) on information-sharing, joint operations planning, and legislative/regulatory advice. This represents 'seeks our new avenues for building internal & external relationships; maintains on going, contact with existing relationships; coaches others on relationship management' as defined in EC-11. The role also involves responding to inquiries from departmental staff, client groups, and provincial/federal law enforcement personnel, requiring clear communication of complex regulatory requirements. Participation in joint inspections and enforcement operations with other agencies demonstrates collaborative relationship management. The position does not include primary responsibility for customer service enhancements or revenue/cost management that would elevate to EC-12.
+    Leadership: EC-10/EC-11 boundary, trending toward EC-11. The position does not include formal supervisory responsibility over staff, which limits leadership classification. However, the role demonstrates leadership characteristics through: (1) providing technical expertise and advice to less experienced staff and other agencies; (2) participating in development of operational policies, procedures, and legislation; (3) providing input that influences departmental direction; (4) acting as subject matter expert in complex enforcement matters. The position 'seeks & provides candid & timely feedback to improve performance; shares information in an open manner, fosters teamwork & innovation by involving others' through inter-agency collaboration and committee participation. This aligns with EC-11's expectation of technical leadership without formal supervisory authority.
+    Project Management: EC-11 level. The position involves planning and managing medium-complexity projects including: annual work plan development and scheduling; joint operations planning with multiple agencies; complex investigations spanning multiple sites and regulatory frameworks; and records audits requiring coordination across business and financial systems. The role requires 'identifies needs & provides technical direction in the design of alternative applications' through participation in policy and procedure development. While not managing large-scale cross-departmental initiatives, the position demonstrates project management capability consistent with EC-11's 'both single focused & cross functional; within one department although work may cross over into other departments.' The coordination of joint operations with federal and provincial agencies represents cross-functional project involvement.
+
+Supporting Evidence:
+    • Special Constable appointment with explicit authority to conduct investigations, execute search warrants, seize property, lay charges, and prepare legal documents—representing significant legal/enforcement authority beyond typical EC-10 positions
+    • Independent decision-making in remote locations with minimal supervision, handling confrontational situations and complex compliance determinations where situations are 'often grey &/or ambiguous; significant judgement is required'
+    • Consolidated accountability across five major regulatory frameworks (FCRA, FHOSA, aquaculture, marine plants, recreational fishing) requiring deep specialization in complex fields of knowledge
+    • Inter-agency collaboration with federal agencies (DFO, CFIA, CBSA, CRA) on enforcement, information-sharing, and joint operations planning—demonstrating sophisticated relationship management
+    • Preparation of Crown briefs, legal documents, occurrence reports, and court testimony—requiring specialized legal knowledge and technical expertise
+    • Participation in development of operational policies, procedures, and legislation—indicating influence on departmental direction beyond routine operations
+    • Requirement to interpret and respond to inquiries about legislation from departmental staff, client groups, and provincial/federal law enforcement—demonstrating expert-level knowledge
+    • Absence of supervisory responsibility over staff distinguishes from EC-12 managerial positions; individual-contributor focus with technical specialization aligns with EC-11
+
+Alternative Levels:
+    • EC-10
+    • EC-12
+
+Comparable Positions:
+    • Environmental/Conservation Enforcement Officers with investigation authority and inter-agency collaboration—typically EC-11
+    • Specialized Compliance Inspectors with legal authority and independent decision-making in complex regulatory environments—typically EC-11
+    • Senior Technical Specialists in enforcement/investigation roles without supervisory responsibility—typically EC-11

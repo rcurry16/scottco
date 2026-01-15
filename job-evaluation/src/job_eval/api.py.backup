@@ -1,0 +1,166 @@
+"""FastAPI backend for job evaluation tool."""
+import json
+import tempfile
+from pathlib import Path
+from typing import Any
+
+from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse, JSONResponse
+from fastapi.staticfiles import StaticFiles
+
+from .classifier import ClassificationRecommendation, FirstPassClassifier
+from .comparator import ComparisonResult, PositionComparator
+from .gauge import RevaluationGauge, RevaluationRecommendation
+
+app = FastAPI(title="Job Evaluation Tool", version="0.1.0")
+
+# Enable CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Mount static files
+static_path = Path(__file__).parent / "static"
+app.mount("/static", StaticFiles(directory=static_path), name="static")
+
+
+@app.get("/")
+async def root():
+    """Serve frontend."""
+    return FileResponse(static_path / "index.html")
+
+
+@app.get("/api/health")
+async def health():
+    """Health check endpoint."""
+    return {"status": "ok", "version": "0.1.0"}
+
+
+def save_upload_file(upload_file: UploadFile) -> Path:
+    """Save uploaded file to temporary location."""
+    suffix = Path(upload_file.filename).suffix if upload_file.filename else ""
+    with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
+        content = upload_file.file.read()
+        tmp.write(content)
+        return Path(tmp.name)
+
+
+def validate_file_type(filename: str | None) -> None:
+    """Validate uploaded file is PDF or DOCX."""
+    if not filename:
+        raise HTTPException(status_code=400, detail="No filename provided")
+
+    suffix = Path(filename).suffix.lower()
+    if suffix not in [".pdf", ".docx", ".doc"]:
+        raise HTTPException(
+            status_code=400,
+            detail=f"Unsupported file type: {suffix}. Only PDF and DOCX allowed."
+        )
+
+
+@app.post("/api/classify", response_model=dict[str, Any])
+async def classify_position(file: UploadFile = File(...)):
+    """
+    Classify a single position description.
+
+    Returns Tool 1.3 output only.
+    """
+    temp_file = None
+    try:
+        # Validate file type
+        validate_file_type(file.filename)
+
+        # Save uploaded file
+        temp_file = save_upload_file(file)
+
+        # Run classifier
+        classifier = FirstPassClassifier()
+        result = classifier.classify(temp_file)
+
+        return result.model_dump()
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+    finally:
+        # Cleanup temp file
+        if temp_file and temp_file.exists():
+            temp_file.unlink()
+
+
+@app.post("/api/full-workflow", response_model=dict[str, Any])
+async def full_workflow(
+    old_file: UploadFile = File(...),
+    new_file: UploadFile = File(...)
+):
+    """
+    Run full workflow: compare -> gauge -> classify.
+
+    Returns combined output from all three tools.
+    """
+    temp_old = None
+    temp_new = None
+    temp_comparison_json = None
+
+    try:
+        # Validate file types
+        validate_file_type(old_file.filename)
+        validate_file_type(new_file.filename)
+
+        # Save uploaded files
+        temp_old = save_upload_file(old_file)
+        temp_new = save_upload_file(new_file)
+
+        # Tool 1.1: Compare
+        comparator = PositionComparator()
+        comparison_result = comparator.compare(temp_old, temp_new)
+
+        # Save comparison result to temp JSON for gauge
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False) as f:
+            json.dump(comparison_result.model_dump(), f)
+            temp_comparison_json = Path(f.name)
+
+        # Tool 1.2: Gauge
+        assessor = RevaluationGauge()
+        gauge_result = assessor.assess(temp_comparison_json)
+
+        # Tool 1.3: Classify
+        classifier = FirstPassClassifier()
+        classification_result = classifier.classify(
+            temp_new,
+            comparison_data=comparison_result.model_dump(),
+            gauge_data=gauge_result.model_dump()
+        )
+
+        # Combine results
+        return {
+            "comparison": comparison_result.model_dump(),
+            "gauge": gauge_result.model_dump(),
+            "classification": classification_result.model_dump()
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+    finally:
+        # Cleanup temp files
+        if temp_old and temp_old.exists():
+            temp_old.unlink()
+        if temp_new and temp_new.exists():
+            temp_new.unlink()
+        if temp_comparison_json and temp_comparison_json.exists():
+            temp_comparison_json.unlink()
+
+
+@app.exception_handler(Exception)
+async def global_exception_handler(request, exc):
+    """Handle all uncaught exceptions."""
+    return JSONResponse(
+        status_code=500,
+        content={"detail": str(exc)}
+    )

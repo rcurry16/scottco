@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Description Generator</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Job Description Generator</h1>
+            <p class="subtitle">AI-powered job descriptions using Mistral & Anthropic models</p>
+        </header>
+
+        <!-- Configuration Section -->
+        <section class="config-section">
+            <h2>📋 Organizational Configuration</h2>
+            <div class="config-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="org-name">Organization Name</label>
+                        <input type="text" id="org-name" placeholder="Your Organization Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="industry">Industry</label>
+                        <input type="text" id="industry" placeholder="Public Sector">
+                    </div>
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" placeholder="Nova Scotia, Canada">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="org-description">Organization Description (Optional)</label>
+                    <textarea id="org-description" rows="4"
+                        placeholder="Provide detailed context about your organization: mission, values, culture, size, unique characteristics, strategic priorities, etc. This helps generate job descriptions aligned with your organizational identity."></textarea>
+                </div>
+                <button id="save-config-btn" class="btn btn-secondary">Save Configuration</button>
+            </div>
+        </section>
+
+        <!-- Job Description Form -->
+        <section class="form-section">
+            <h2>💼 Job Information</h2>
+            <form id="job-desc-form">
+                <!-- Basic Information -->
+                <div class="section-group">
+                    <h3>Basic Information</h3>
+
+                    <div class="form-group">
+                        <label for="job-title">1. Job/Working Title *</label>
+                        <input type="text" id="job-title" name="job_title" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="department">2. Department *</label>
+                            <input type="text" id="department" name="department" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="division-section">Division/Section (optional)</label>
+                            <input type="text" id="division-section" name="division_section">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reports-to">3. Reports To (Position Title) *</label>
+                        <input type="text" id="reports-to" name="reports_to" required>
+                    </div>
+                </div>
+
+                <!-- Role Responsibilities -->
+                <div class="section-group">
+                    <h3>Role Responsibilities</h3>
+
+                    <div class="form-group">
+                        <label for="primary-responsibilities">4. Primary Responsibilities *</label>
+                        <textarea id="primary-responsibilities" name="primary_responsibilities" rows="4" required
+                            placeholder="Describe the main duties and outcomes this role is responsible for..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="key-deliverables">5. Key Deliverables *</label>
+                        <textarea id="key-deliverables" name="key_deliverables" rows="3" required
+                            placeholder="What specific outputs or results does this role produce?"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="unique-aspects">6. Unique Aspects *</label>
+                        <textarea id="unique-aspects" name="unique_aspects" rows="3" required
+                            placeholder="What makes this role unique or different?"></textarea>
+                    </div>
+                </div>
+
+                <!-- People & Relationships -->
+                <div class="section-group">
+                    <h3>People & Relationships</h3>
+
+                    <div class="form-group">
+                        <label for="manages-people">7. Does this role manage or supervise people? *</label>
+                        <select id="manages-people" name="manages_people" required>
+                            <option value="">Select...</option>
+                            <option value="true">Yes</option>
+                            <option value="false">No</option>
+                        </select>
+                    </div>
+
+                    <div id="management-details" class="conditional-section" style="display: none;">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="num-direct-reports">Number of Direct Reports</label>
+                                <input type="text" id="num-direct-reports" name="num_direct_reports"
+                                    placeholder="e.g., 3, 2-5, varies">
+                            </div>
+                            <div class="form-group">
+                                <label for="num-indirect-reports">Number of Indirect Reports</label>
+                                <input type="text" id="num-indirect-reports" name="num_indirect_reports"
+                                    placeholder="e.g., 10-15">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="other-resources">Other Resources Managed</label>
+                            <input type="text" id="other-resources" name="other_resources_managed"
+                                placeholder="e.g., consultants, students, contractors">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="key-contacts">8. Key Contacts *</label>
+                        <textarea id="key-contacts" name="key_contacts" rows="3" required
+                            placeholder="Who does this role interact with regularly?"></textarea>
+                    </div>
+                </div>
+
+                <!-- Scope & Decision-Making -->
+                <div class="section-group">
+                    <h3>Scope & Decision-Making</h3>
+
+                    <div class="form-group">
+                        <label for="decision-authority">9. Decision Authority *</label>
+                        <textarea id="decision-authority" name="decision_authority" rows="3" required
+                            placeholder="What types of decisions can this role make independently?"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="innovation-problem-solving">10. Innovation & Problem-Solving *</label>
+                        <textarea id="innovation-problem-solving" name="innovation_problem_solving" rows="3" required
+                            placeholder="What degree of creativity, judgment, or innovation is required?"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="impact-of-results">11. Impact of Results *</label>
+                        <textarea id="impact-of-results" name="impact_of_results" rows="3" required
+                            placeholder="How do the outcomes affect the organization, clients, or broader goals?"></textarea>
+                    </div>
+                </div>
+
+                <!-- Requirements -->
+                <div class="section-group">
+                    <h3>Requirements</h3>
+
+                    <div class="form-group">
+                        <label for="special-requirements">12. Special Requirements</label>
+                        <textarea id="special-requirements" name="special_requirements" rows="3"
+                            placeholder="Licenses, certifications, travel, specific working conditions, etc."></textarea>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary" id="generate-btn">
+                        🚀 Generate Job Descriptions
+                    </button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Generating job descriptions with both Mistral and Anthropic models...</p>
+            <p class="loading-subtext">This may take 30-60 seconds</p>
+        </div>
+
+        <!-- Results Section -->
+        <section id="results-section" class="results-section" style="display: none;">
+            <h2>📄 Generated Job Descriptions</h2>
+
+            <div class="results-grid">
+                <!-- Mistral Result -->
+                <div class="result-panel">
+                    <div class="result-header">
+                        <h3>Mistral Output</h3>
+                        <div class="result-actions">
+                            <button class="btn btn-small" onclick="copyToClipboard('mistral-output')">
+                                📋 Copy All
+                            </button>
+                            <button class="btn btn-small" id="download-mistral-btn">
+                                ⬇️ Download .txt
+                            </button>
+                        </div>
+                    </div>
+                    <pre id="mistral-output" class="output-content"></pre>
+                </div>
+
+                <!-- Anthropic Result -->
+                <div class="result-panel">
+                    <div class="result-header">
+                        <h3>Anthropic Output</h3>
+                        <div class="result-actions">
+                            <button class="btn btn-small" onclick="copyToClipboard('anthropic-output')">
+                                📋 Copy All
+                            </button>
+                            <button class="btn btn-small" id="download-anthropic-btn">
+                                ⬇️ Download .txt
+                            </button>
+                        </div>
+                    </div>
+                    <pre id="anthropic-output" class="output-content"></pre>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>

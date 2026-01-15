@@ -1,0 +1,43 @@
+JOB EVALUATION ANALYSIS REPORT
+================================================================================
+
+CLASSIFICATION RECOMMENDATION
+================================================================================
+
+Position Title:
+  Manager Business Solutions
+
+Recommended Level:
+  EC-12
+
+Confidence:
+  90%
+
+Rationale:
+  This position demonstrates clear alignment with EC-12 (Manager/Senior Consultant) classification standards across all six categories. The incumbent provides managerial direction for specific business processes and functions (Business Solutions Group), manages high-level revenue and cost containment contributions of significant importance (multi-million dollar IT initiatives), and possesses deep knowledge of IT business processes with full appreciation of organizational business interactions. Decision-making authority extends to resolving operational issues within the functional area and identifying opportunities for process improvement. The position requires leadership of a functional area with cross-functional coordination, management of significant technical/business projects, and strategic direction setting. The scope is clearly defined within the Business Solutions function rather than spanning multiple divisions (which would indicate EC-13+), and the reporting relationship to a Director (not Deputy Head) confirms EC-12 positioning. The position matches EC-12 more precisely than EC-11 due to the breadth of responsibility for business process management, supplier relationship management, and strategic initiative delivery, and does not reach EC-13 as it lacks the large business function/unit scope or multiple business process/function management characteristic of that level.
+
+Category Analysis:
+    Accountabilities: EC-12 level. The position provides managerial direction for specific business processes/functions (IT services delivery, Business Solutions Group operations) and is responsible for high-level contributions of significant importance (multi-year, multi-million dollar transformation initiatives). Responsibilities include strategic direction, priority-setting, administrative management of ICT services, delivery of complex multi-departmental initiatives, supplier relationship management, and service delivery oversight. This matches EC-12's 'Provides managerial direction for a specific business processes/functions or project teams' and 'Responsible for high level revenue & cost containment contributions of significant importance.' The scope is narrower than EC-13 (which manages large business functions/multiple processes) but broader than EC-11 (which manages small functions with some complexity).
+    Knowledge Experience: EC-12 level. The position requires 'general knowledge of a few business processes & more specific knowledge of one particular functional unit' (IT/Business Solutions) and 'full appreciation of organizations business & interactions.' The incumbent must understand IT service delivery, vendor management (IBM, SAP, Microsoft), government operations across multiple departments/agencies, compliance requirements (cyber security, privacy), and strategic planning. This demonstrates the specialized depth in IT business solutions combined with organizational breadth expected at EC-12, exceeding EC-11's operational process knowledge but not reaching EC-13's requirement for deep experience across many business processes.
+    Decision Making: EC-12 level. The position 'resolves most issues of an operational nature within unit/function' (incident management, service delivery problems, supplier performance issues) and 'identifies opportunities for process improvement / product development / customer relations by presenting & recommending alternatives.' The incumbent makes decisions regarding strategic direction, budget allocation, resource management, initiative scope and objectives, and service level management. These decisions operate within the Business Solutions functional area with autonomy, but require alignment with Director-level strategy and government priorities. This matches EC-12's decision-making scope rather than EC-11 (which seeks approval on matters outside job scope) or EC-13 (which has decision-making authority across multiple functions/divisions).
+    Customer Relationship: EC-12 level. The position 'recognizes the need to maintain strong customer relationships & works to meet & exceed current customer's needs/requirements' and 'assists in the development & implementation of customer service enhancements on cross functional basis.' The incumbent manages relationships with multiple client departments, agencies, boards, commissions, health/education sectors, municipalities, and universities. Responsibilities include client satisfaction monitoring, SLA management, feedback solicitation, and relationship growth. This demonstrates the cross-functional customer relationship management of EC-12, exceeding EC-11's focus on pre-established relationships but not reaching EC-13's role in developing integrated strategies across divisions.
+    Leadership: EC-12 level. The position 'establishes & communicates common goals & direction for functional area; coordinates cross-functional communication, problem solving & team initiatives.' The incumbent assists the Director in managing Business Solutions team human resources, provides formal and informal feedback, motivates employees, develops communication processes, and ensures safe work environment. Leadership is exercised within the Business Solutions Group functional area with coaching and team development responsibilities. This aligns with EC-12's functional area leadership rather than EC-11's small team leadership or EC-13's division-level strategic leadership.
+    Project Management: EC-12 level. The position 'provides leadership to significant technical/business projects; may contribute unique specialization' and manages 'the primary focus to manage the processes for planning, executing, monitoring & delivering projects which directly impact the successful implementation.' Specific responsibilities include planning and execution of complex, multi-year, multi-million dollar transformation initiatives; establishing scope, budget, schedule, objectives, and business benefits; and providing ongoing leadership. This demonstrates management of significant projects at EC-12 level, exceeding EC-11's medium complexity projects but not reaching EC-13's oversight of major province-wide/cross-departmental initiatives with impact on other departments.
+
+Supporting Evidence:
+    • Managerial direction for specific business processes/functions (Business Solutions Group, IT services delivery) with accountability for multi-million dollar transformation initiatives - core EC-12 accountability
+    • Decision-making authority to resolve operational issues within functional area and identify process improvements, with autonomy to deliver on functional goals - EC-12 decision-making scope
+    • Leadership of functional area with cross-functional coordination, team management, and communication of common goals and direction - EC-12 leadership level
+    • Management of significant technical/business projects (complex, multi-year, multi-million dollar initiatives) with planning, execution, monitoring and delivery responsibility - EC-12 project management scope
+    • Supplier relationship management and service level agreement oversight across multiple vendors and client departments - EC-12 customer relationship management
+    • Reporting to Director (not Deputy Head or Executive Director) - positioning consistent with EC-12 rather than higher levels
+    • Scope limited to Business Solutions functional area rather than spanning multiple divisions or large business units - differentiates from EC-13+
+
+Alternative Levels:
+    • EC-11
+    • EC-13
+
+Comparable Positions:
+    • IT Service Manager with responsibility for specific technology service delivery function
+    • Business Process Manager overseeing transformation initiatives within defined functional area
+    • Senior Coordinator managing complex multi-departmental projects and supplier relationships

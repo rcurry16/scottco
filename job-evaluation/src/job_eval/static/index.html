@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Evaluation Tool</title>
+    <link rel="stylesheet" href="/shared-styles.css?v=2">
+    <link rel="stylesheet" href="static/styles.css?v=2">
+</head>
+<body class="gradient-bg">
+    <div class="container">
+        <main>
+            <header>
+                <h1>Job Evaluation Tool</h1>
+                <p class="subtitle">Classification analysis for position descriptions</p>
+            </header>
+
+            <section class="workflow-selector">
+                <h2>Select Workflow</h2>
+                <div class="radio-group">
+                    <label class="radio-card">
+                        <input type="radio" name="workflow" value="full" checked>
+                        <div class="radio-content">
+                            <strong>Full Analysis</strong>
+                            <p>Compare before/after documents → Run all 3 tools</p>
+                        </div>
+                    </label>
+                    <label class="radio-card">
+                        <input type="radio" name="workflow" value="classify">
+                        <div class="radio-content">
+                            <strong>Quick Classification</strong>
+                            <p>Single document → First pass classifier only</p>
+                        </div>
+                    </label>
+                </div>
+            </section>
+
+            <section class="upload-section" id="upload-section">
+                <!-- Full workflow uploads -->
+                <div id="full-uploads" class="upload-container">
+                    <div class="upload-zone">
+                        <input type="file" id="old-file" accept=".pdf,.docx,.doc" hidden>
+                        <label for="old-file" class="drop-zone" id="old-drop">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="17 8 12 3 7 8"/>
+                                <line x1="12" y1="3" x2="12" y2="15"/>
+                            </svg>
+                            <p class="drop-text">Drop or click to upload <strong>BEFORE</strong> document</p>
+                            <p class="file-types">PDF or DOCX</p>
+                            <p class="file-name" id="old-file-name"></p>
+                        </label>
+                    </div>
+
+                    <div class="upload-zone">
+                        <input type="file" id="new-file" accept=".pdf,.docx,.doc" hidden>
+                        <label for="new-file" class="drop-zone" id="new-drop">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="17 8 12 3 7 8"/>
+                                <line x1="12" y1="3" x2="12" y2="15"/>
+                            </svg>
+                            <p class="drop-text">Drop or click to upload <strong>AFTER</strong> document</p>
+                            <p class="file-types">PDF or DOCX</p>
+                            <p class="file-name" id="new-file-name"></p>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Single file upload -->
+                <div id="single-upload" class="upload-container" style="display: none;">
+                    <div class="upload-zone single">
+                        <input type="file" id="single-file" accept=".pdf,.docx,.doc" hidden>
+                        <label for="single-file" class="drop-zone" id="single-drop">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="17 8 12 3 7 8"/>
+                                <line x1="12" y1="3" x2="12" y2="15"/>
+                            </svg>
+                            <p class="drop-text">Drop or click to upload position description</p>
+                            <p class="file-types">PDF or DOCX</p>
+                            <p class="file-name" id="single-file-name"></p>
+                        </label>
+                    </div>
+                </div>
+
+                <button id="submit-btn" class="submit-btn" disabled>
+                    <span class="btn-text">Analyze</span>
+                    <span class="loader" style="display: none;"></span>
+                </button>
+            </section>
+
+            <section class="results-section" id="results-section" style="display: none;">
+                <div class="results-header">
+                    <h2>Analysis Results</h2>
+                </div>
+                <div id="results-content" class="results-content"></div>
+            </section>
+
+            <div id="error-message" class="error-message" style="display: none;"></div>
+        </main>
+    </div>
+
+    <script src="static/app.js"></script>
+</body>
+</html>

@@ -34,9 +34,11 @@ jobs:
 
             # Set up job-description with uv
             cd /var/www/scottco-github/job-description
-            python3 -m venv .venv
+            if [ ! -d ".venv" ]; then
+              python3 -m venv .venv
+            fi
             source .venv/bin/activate
-            uv pip install -e .
+            uv pip install pydantic-ai==0.1.6 pydantic>=2.0.0 anthropic>=0.40.0 fastapi>=0.104.0 'uvicorn[standard]>=0.24.0' python-multipart>=0.0.6 python-dotenv>=1.0.0
             deactivate
 
             # Create .env for job-description
@@ -48,7 +50,9 @@ jobs:
 
             # Set up job-evaluation with uv
             cd /var/www/scottco-github/job-evaluation
-            python3 -m venv .venv
+            if [ ! -d ".venv" ]; then
+              python3 -m venv .venv
+            fi
             source .venv/bin/activate
             uv pip install -e .
             deactivate
@@ -58,5 +62,8 @@ jobs:
             ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY_JOB_EVAL }}
             EOF
 
-            echo "✅ Deployment complete - code updated, dependencies installed, .env files created"
+            # Restart services
+            sudo systemctl restart scottco job-eval
+
+            echo "✅ Deployment complete - code updated, dependencies installed, services restarted"
             echo "📍 Location: /var/www/scottco-github"

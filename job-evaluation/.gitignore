@@ -43,3 +43,4 @@ Thumbs.db
 # Project specific
 data/*.json
 !data/.gitkeep
+!data/classification_standards.json

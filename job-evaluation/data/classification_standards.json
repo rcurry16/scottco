@@ -1,0 +1,715 @@
+{
+  "classification_levels": {
+    "EC-01": {
+      "level": 1,
+      "title": "Clerk",
+      "grade_code": "C T 1 / C 2 / B 2",
+      "categories": {
+        "accountabilities": [
+          "Participates as a member of a group or division with specific tasks that are routine in nature",
+          "Performance of a task(s) that is/are highly specific as to objective & content",
+          "Not involving the leadership of others",
+          "Work consists of basic clerical work with limited variety & complexity",
+          "Work is typically limited to one or two clerical functions such as: documenting processing, record keeping, filing, mail processing or reception"
+        ],
+        "knowledge_experience": [
+          "Familiarization in standardized work routines & use of simple to moderately complex equipment & machines",
+          "Requires working knowledge of company or department procedures related to work performed",
+          "Requires limited amount of prior experience. Grade 12, 0-2 years related experience"
+        ],
+        "decision_making": [
+          "Highly structured",
+          "Thinking within very detailed & defined rules & instructions & / or continually present assistance",
+          "Supervision is available to assist on any work not clearly covered by standard procedures"
+        ],
+        "customer_relationship": [
+          "May have routine contacts with customers, suppliers & other departments"
+        ],
+        "leadership": [
+          "Establishes co-operative relationships to work effectively with colleagues, supports others & participates as a team member carrying out duties as directed"
+        ],
+        "project_management": [
+          "Performs a variety of tasks within well-defined practices & procedures"
+        ]
+      }
+    },
+    "EC-02": {
+      "level": 2,
+      "title": "Assistant/Secretary",
+      "grade_code": "C T+ 1 / C 2 / B 3-",
+      "categories": {
+        "accountabilities": [
+          "Participates as a member of a group or division with specific assignments of intermediate complexity as it relates to depth of analysis, use of independent judgement",
+          "Performance of duties involve a range of clerical tasks associated within a specific function, e.g., accounting, records management",
+          "Not involving the leadership of others"
+        ],
+        "knowledge_experience": [
+          "Familiarization in standardized work routines & use of moderately complex equipment & machines",
+          "A sound knowledge of procedures, rules, acts, & regulations",
+          "Work at this level requires clerical experience",
+          "Requires limited amount of prior experience. Grade 12 & completion of an office administration course plus 2 years related",
+          "Grade 12 plus 3 years related experience",
+          "Equivalent combination of training & experience"
+        ],
+        "decision_making": [
+          "Highly structured",
+          "Thinking within detailed & defined rules & instructions & / or continually present assistance",
+          "Works under general supervision; supervision is available to assist & work is normally reviewed upon completion"
+        ],
+        "customer_relationship": [
+          "May have routine contacts with customers, suppliers & other departments"
+        ],
+        "leadership": [
+          "Establishes co-operative relationships to work effectively with colleagues, supports others & participates as a team member carrying out duties as directed"
+        ],
+        "project_management": [
+          "Performs a variety of tasks within well-defined practices & procedures"
+        ]
+      }
+    },
+    "EC-03": {
+      "level": 3,
+      "title": "Secretary/Assistant/Clerk",
+      "grade_code": "C I 1 / C 2+ / B 3+",
+      "categories": {
+        "accountabilities": [
+          "Participates as a member of a group or division with a variety of responsible & complex clerical assignments requiring independent analysis, exercise of judgement",
+          "Performs duties involving more technical clerical or support tasks",
+          "May involve the leadership of others",
+          "Performs full clerical, administrative, & general office duties involving transcription, typing, record & file maintenance, mail distribution, & telephone reception",
+          "Typically supports middle to upper-level management &/or professional positions"
+        ],
+        "knowledge_experience": [
+          "Is knowledgeable of the work unit's functions & has general familiarity with the broader government department",
+          "Requires several years of relevant experience",
+          "Work at this level requires considerable clerical experience & comprehensive knowledge of work procedures",
+          "Requires minimum supervision & receives specific instructions only on unusual or special problems",
+          "Grade 12 plus 1 year business course + 3 years related experience",
+          "Equivalent combination of training & experience"
+        ],
+        "decision_making": [
+          "Highly structured",
+          "Thinking within very detailed & defined rules & instructions & / or continually present assistance",
+          "Supervision is available to assist on any work not clearly covered by standard procedures"
+        ],
+        "customer_relationship": [
+          "Has regular contact with managers & professionals on the principal's behalf"
+        ],
+        "leadership": [
+          "Establishes co-operative relationships to work effectively with colleagues, supports others & participates as a team member carrying out duties as directed",
+          "May have responsibility for the instruction & guidance of other Administrative Support Clerks"
+        ],
+        "project_management": [
+          "Performs a variety of tasks within well-defined practices & procedures"
+        ]
+      }
+    },
+    "EC-04": {
+      "level": 4,
+      "title": "Clerk/Assistant",
+      "grade_code": "D- I 1 / C 3 / C 3",
+      "categories": {
+        "accountabilities": [
+          "Participates as a member of a group or division with a variety of responsible & complex support assignments requiring independent analysis, exercise of judgement",
+          "Performs duties involving more technical support tasks",
+          "May involve the leadership of others",
+          "Performs full clerical, administrative, & general office duties of a responsible & confidential nature",
+          "Typically reports to a position responsible for a significant function within a government department"
+        ],
+        "knowledge_experience": [
+          "Has substantial of the work unit's functions & has general familiarity with the broader government department",
+          "Requires many years of relevant experience",
+          "Work at this level requires considerable technical support experience & comprehensive knowledge of work procedures",
+          "Requires minimum supervision & receives specific instructions only on unusual or special problems",
+          "Grade 12 plus 1 year business course plus 3-4 years related experience",
+          "Equivalent combination of training & experience"
+        ],
+        "decision_making": [
+          "Decision making within specified rules & instructions which may involve some judgment in the interpretation & application of administrative directives, rules, acts, & regulations & frequently necessitates modifying work processes",
+          "Supervision is available to assist on any work not clearly covered by standard procedures"
+        ],
+        "customer_relationship": [
+          "Has regular contact with managers & professionals on the principal's behalf",
+          "Regular contact with persons at all levels of the organization, industry, customers/ clients & the community"
+        ],
+        "leadership": [
+          "Establishes co-operative relationships to work effectively with colleagues, supports others & participates as a team member carrying out duties as directed",
+          "May have responsibility for the instruction & guidance of other Administrative Support Clerks"
+        ],
+        "project_management": [
+          "Begins participate on projects; may be asked to review work delivered by external suppliers"
+        ]
+      }
+    },
+    "EC-05": {
+      "level": 5,
+      "title": "Coordinator/Assistant/Secretary",
+      "grade_code": "D- I 2 / C 3 / C 3+",
+      "categories": {
+        "accountabilities": [
+          "Participates as a member of Department with supervisory responsibility &/or specialized nature of work, independence of action & increased complexity in performing clerical functions where the consequence of error can be significant",
+          "Undertaking the more complex clerical assignments & typically co-ordinates the work of less senior clerks",
+          "Performs full clerical, administrative, & general office duties of a responsible & confidential nature",
+          "Typically reports to a position responsible for a major function within a government department",
+          "The key evaluation criterion for jobs at this level is not necessarily the reporting relationship but the increased levels of independence & discretion required in the completion of complex administrative responsibilities"
+        ],
+        "knowledge_experience": [
+          "Work at this level requires considerable clerical experience, comprehensive knowledge of work procedures & how the work of the division relates to the objectives of the Department",
+          "Requires significant relevant experience; solid understanding of the work function, & the functions, functions, operations & procedures of the government department",
+          "Although work is carried out with a large degree of independence, it is periodically reviewed for consistency of decision making",
+          "Grade 12 plus 1 year business course plus 4 years related experience",
+          "Equivalent combination of training & experience"
+        ],
+        "decision_making": [
+          "Decision making involves judgment in the interpretation & application of administrative directives, rules, acts, & regulations & frequently necessitates modifying work processes, variations from established guidelines, or assisting in the development of new methods"
+        ],
+        "customer_relationship": [
+          "Regular contact with persons at all levels of the organization, industry, customers/ clients & the community"
+        ],
+        "leadership": [
+          "Establishes co-operative relationships to work effectively with colleagues, supports others & participates as a team member carrying out duties as directed",
+          "May have responsibility for the instruction & guidance of other Administrative Support Clerks"
+        ],
+        "project_management": [
+          "Begins to participate on &/or manage parts of projects; may be asked to review work delivered by external suppliers"
+        ]
+      }
+    },
+    "EC-06": {
+      "level": 6,
+      "title": "Supervisor/Coordinator/Assistant",
+      "grade_code": "D I 2 / C+ 3 / C+ 4",
+      "categories": {
+        "accountabilities": [
+          "Participates as a member of operating unit with specific accountabilities & responsibilities",
+          "Applies academic knowledge to job/role accountabilities, provides support on specific portions of larger projects/work assignments",
+          "Provides technical support",
+          "An experienced technician. Using tools, offering alternatives, making things run & providing technical analysis detailing/ reconciliation testing etc.",
+          "May provide advanced level administrative support to a senior executive, requiring strong initiative & judgment",
+          "Provides work assistance & support to co-workers (may include scheduling & supervision of activities)"
+        ],
+        "knowledge_experience": [
+          "Possesses general knowledge of a specific product, process, customer group",
+          "Understands processes on either side of functional area",
+          "Effective communicator",
+          "Knowledge & experience with corporate policies & procedures; Basic understanding of technical issues & applications of logic & familiarity with technology processes",
+          "An experienced technician. 6+ years' experience in specialization or 12-24 months post graduate"
+        ],
+        "decision_making": [
+          "Small variations in applications. Identifies things which are out of sort",
+          "Puts forward ideas on how work assignments can be executed & improved",
+          "Works independently on details of assignments but has limited decision-making authority; most decisions made or guided by immediate supervisor",
+          "May be responsible for a specialized activity that requires somewhat complex decisions"
+        ],
+        "customer_relationship": [
+          "Ensures that all customer contacts support & grow pre-established relationships",
+          "Becomes more self-directed in dealing with internal & external customers; updates customers on upcoming events, issues or changes to product & service offerings",
+          "Directs customer concerns to appropriate contact",
+          "Builds internal relationships with others outside of own work group or team, particularly with internal customers; begins to interact with external contacts on own; begins to initiate information exchanges"
+        ],
+        "leadership": [
+          "Takes initiative in learning about the organization & develops external contacts; actively seeks information & guidance to improve own performance, contributes as a team member & takes responsibility for own work commitments"
+        ],
+        "project_management": [
+          "Begins to manage projects; may be asked to review work delivered by external suppliers"
+        ]
+      }
+    },
+    "EC-07": {
+      "level": 7,
+      "title": "Supervisor/Coordinator/Specialist/Junior Consultant",
+      "grade_code": "D I+ 2 / D 3+ / C+ 4 or D 4",
+      "categories": {
+        "accountabilities": [
+          "May start to lead a work group or project team consisting of technical & support staff, looks to supervisor for substantial coaching on people management issues",
+          "Acts as a technical resource & advisor to less experienced semi to skilled team members",
+          "Key responsibilities include improving, supporting & monitoring",
+          "Contributes to the successful completion of a unit's work or specific end results",
+          "Begins to assists in the analysis & forming of recommendations",
+          "Activities are non-clerical in nature i.e. Advanced PC application skills, research & analysis of data, facilitation, coordination & training in a technical specialty"
+        ],
+        "knowledge_experience": [
+          "Knows/understands operational process related to specific product/process/customer group",
+          "Understands how parts of critical processes fit together",
+          "Possesses strong communication capability",
+          "Usually has Bachelor's degree complemented by functional experience (2-3 years)",
+          "Search to expand & knowledge & share with others",
+          "Full understanding of technical support processes"
+        ],
+        "decision_making": [
+          "Identifies & resolves most processing problems",
+          "Has decision-making & autonomy needed to deliver on accountabilities of job /role; seeks approval from others on matters outside of job/role scope; makes decisions regarding work & development of project team members when required",
+          "Provides analytical support within clear & focused parameters",
+          "Assignments are of limited scope & complexity",
+          "Uses a variety of standard methods & techniques in solving problems",
+          "Must compare alternative approaches requiring resolution within known parameters",
+          "Decisions made normally within established guidelines &/or technical procedures & management precedent; has freedom to act in areas of proficiency"
+        ],
+        "customer_relationship": [
+          "Ensures that all customer contacts support & grow pre-established relationships",
+          "Becomes more self-directed in dealing with internal & external customers; updates customers on upcoming events, issues or changes to product & service offerings",
+          "Directs customer concerns to appropriate contact",
+          "Builds internal relationships with others outside of own work group or team, particularly with internal customers; begins to interact with external contacts on own; begins to initiate information exchanges"
+        ],
+        "leadership": [
+          "Seeks & provides candid & timely feedback to improve performance; shares information in an open manner, fosters teamwork & innovation by involving others in problem solving, decision making & creative thinking"
+        ],
+        "project_management": [
+          "Manage small projects, begins to support manage medium to moderately complex projects, coaching & mentoring on project management issues that are supported by supervisor",
+          "Assists in the analysis & forming of recommendations"
+        ]
+      }
+    },
+    "EC-08": {
+      "level": 8,
+      "title": "Supervisor/Coordinator/Analyst/Specialist",
+      "grade_code": "E I 2 / D 3+ / D 4",
+      "categories": {
+        "accountabilities": [
+          "May lead a work group or project team consisting of technical & support staff, looks to supervisor for substantial coaching on people management issues",
+          "Acts as a technical resource & advisor to less experienced semi to skilled team members",
+          "First level technical specialist",
+          "Key responsibilities include improving, supporting & monitoring",
+          "Contributes to the successful completion of a unit's work or specific end results",
+          "Assists in the analysis & forming of recommendations",
+          "Activities are non-clerical in nature i.e. Advanced PC application skills, research & analysis of data, facilitation, coordination & training in a technical specialty"
+        ],
+        "knowledge_experience": [
+          "Knows/understands a complete operational process",
+          "Understands how parts of critical processes fit together",
+          "Possesses strong communication capability",
+          "Usually has Bachelor's degree complemented by significant functional experience (4-5 years)",
+          "Search to expand & knowledge & share with others",
+          "Full understanding of technical applications & processes"
+        ],
+        "decision_making": [
+          "Identifies & resolves processing problems",
+          "Has decision-making & autonomy needed to deliver on accountabilities of job /role; seeks approval from others on matters outside of job/role scope; makes decisions regarding work & development of project team members when required",
+          "Provides analytical support within clear & focused parameters",
+          "Assignments are of limited scope & complexity",
+          "Uses a variety of standard methods & techniques in solving problems",
+          "Must compare alternative approaches requiring resolution within know parameters",
+          "Decisions made normally within established guidelines &/or technical procedures & management precedent; has freedom to act in areas of proficiency"
+        ],
+        "customer_relationship": [
+          "Supports others in maintaining customer relationships",
+          "Ensures commitments to internal & external customers are met in a timely & cost-effective manner; solicits feedback from customers to identify opportunities to improve products &/or services; resolves minor conflicts & involves others in conflict or problem resolution",
+          "Builds internal & external relationships, with emphasis on those that facilitate the achievement of job/role accountabilities such as relationships with key suppliers, customers & internal service providers"
+        ],
+        "leadership": [
+          "Seeks & provides candid & timely feedback to improve performance; shares information in an open manner, fosters teamwork & innovation by involving others in problem solving, decision making & creative thinking"
+        ],
+        "project_management": [
+          "Begins to manage medium to moderately complex projects, coaching & mentoring on project management issues that are supported by supervisor",
+          "Provides support in planning, evaluating, directing, & tracking, analyzing & coordinating multiple projects"
+        ]
+      }
+    },
+    "EC-09": {
+      "level": 9,
+      "title": "Manager/Coordinator/Analyst",
+      "grade_code": "E I+ 2 / D 3+ / D 4+",
+      "categories": {
+        "accountabilities": [
+          "May lead a work group or project team consisting of a variety of technical & support staff, looks to supervisor for substantial coaching on people management issues",
+          "Acts as a technical resource & advisor to less experienced semi to skilled team members",
+          "First level technical specialist",
+          "Key responsibilities include improving, supporting & monitoring",
+          "Contributes to the successful completion of a unit's work or specific end results",
+          "Assists in the analysis & forming of recommendations",
+          "Activities are non-clerical in nature i.e. Advanced PC application skills, research & analysis of data, facilitation, coordination & training in a technical specialty"
+        ],
+        "knowledge_experience": [
+          "Knows/understands a complete operational process & work is not always covered by defined procedure",
+          "Understands how parts of critical processes fit together",
+          "Possesses strong communication capability",
+          "Usually has Bachelor's degree complemented by significant functional experience (4-5 years)",
+          "Search to expand & knowledge & share with others",
+          "Full understanding of technical applications & processes"
+        ],
+        "decision_making": [
+          "Identifies & resolves most processing problems & operational issues",
+          "Has decision-making & autonomy needed to deliver on accountabilities of job /role; seeks approval from others on matters outside of job/role scope; makes decisions regarding work & development of project team members when required",
+          "Provides specialized analytical support within clear & focused parameters",
+          "Assignments are of limited scope & complexity",
+          "Uses a variety of standard methods & techniques in solving problems",
+          "Must compare alternative approaches requiring resolution within know parameters",
+          "Decisions made normally within established guidelines &/or technical procedures & management precedent; has freedom to act in areas of proficiency"
+        ],
+        "customer_relationship": [
+          "Supports others in maintaining customer relationships",
+          "Ensures commitments to internal & external customers are met in a timely & cost-effective manner; solicits feedback from customers to identify opportunities to improve products &/or services; resolves minor conflicts & involves others in conflict or problem resolution",
+          "Builds internal & external relationships, with emphasis on those that facilitate the achievement of job/role accountabilities such as relationships with key suppliers, customers & internal service providers"
+        ],
+        "leadership": [
+          "Usually reports to a Manager or Director",
+          "Seeks & provides candid & timely feedback to improve performance; shares information in an open manner, fosters teamwork & innovation by involving others in problem solving, decision making & creative thinking"
+        ],
+        "project_management": [
+          "Begins to manage medium to moderately complex projects, coaching & mentoring on project management issues that are supported by supervisor",
+          "Assists in the analysis & forming of recommendations"
+        ]
+      }
+    },
+    "EC-10": {
+      "level": 10,
+      "title": "Manager/Consultant",
+      "grade_code": "E II 2 or F I 2 / E 3+ / D 5",
+      "categories": {
+        "accountabilities": [
+          "Provides managerial direction for small function(s)/operating units of highly skilled in-scope/support or technical resources",
+          "May take a leader role in small projects or routine operations",
+          "Plans, organizes & schedules the work performed by team",
+          "Contributes to the success of an operating unit through technical work direction &/or problem resolution",
+          "Full working level; applies specific area(s) of expertise in own functional area & broad knowledge of many areas",
+          "Responsible provide advice & guidance, & implement programs & processes consistent with current policies, or existing principles",
+          "Provides analysis, improving effectiveness & recommending alternatives"
+        ],
+        "knowledge_experience": [
+          "Knowledge in technical, scientific or specialized field with understanding of business processes, particularly those within functional unit; work not always covered by defined procedures but objectives defined",
+          "Understands the organization from a conceptual understanding gained through professional &/or extensive experience",
+          "Supports customer relationships & has strong communications skills; primarily concerned with understanding, influencing, & supporting people",
+          "Thorough knowledge & understanding of technical /professional specialization",
+          "5-6 years post graduate",
+          "Broad mix of technical applications & organizational experience"
+        ],
+        "decision_making": [
+          "Analyses specific issues, procedures & or products within clearly defined policies, principles & specific objectives",
+          "Provides recommendations on improving procedure & processes",
+          "Has decision-making authority & autonomy to deliver on goals of team & self; makes decisions regarding work & development of team; influences others outside of team to ensure goals met & conflict resolved in effective manner",
+          "Analysis of issues with some expectations for specific recommendations",
+          "Directed by functional practices & management precedent, has freedom to manage risk & act in area of professional expertise"
+        ],
+        "customer_relationship": [
+          "Assists in the development & implementation of customer service enhancements in own functional area including responses to customer feedback; plays a role &/or coaches others to ensure customer conflicts, concerns & issues are resolved",
+          "Seeks our new avenues for building internal & external relationships; maintains on going, contact with existing relationships; coaches others on relationship management issues",
+          "Full interaction & participation as a team member, ensures ongoing exchange of technical information & experience"
+        ],
+        "leadership": [
+          "Usually reports to a Manager or Director",
+          "Establishes & communicates common goals & direction for team, coaches others on how to enhance communication, problem solving team work & innovation; involves others in problem solving, decision making & creative thinking"
+        ],
+        "project_management": [
+          "Manages medium complex to moderately complex projects, accountable for quality of work delivered by external suppliers, as applicable; identifies resourcing issues within scope of work coaches others in area of specialization",
+          "Both single focused & cross functional; within one department although work may cross over into other departments. Key role is are targets being met, is the project supporting the division/department"
+        ]
+      }
+    },
+    "EC-11": {
+      "level": 11,
+      "title": "Manager/Consultant",
+      "grade_code": "E II 3 or E+ II 2 or F I 3 or F 1+ 2 / E 4 / E 5- or 5",
+      "categories": {
+        "accountabilities": [
+          "Provides managerial direction for small function/operating units of highly skilled in-scope/support or technical /j.e. professional staff with some coaching from own supervisor",
+          "Takes a lead role in small to medium sized projects or routine operations",
+          "Plans, organizes & schedules the work performed by team",
+          "Contributes to the success of an operating unit through specialized technical work direction &/or problem resolution",
+          "First full level of specialization or project management; applies specific area(s) of expertise in own functional area",
+          "Provides advice & guidance in area of specialization",
+          "Responsible for developing supports, providing analytical tools, improving effectiveness & recommending alternatives"
+        ],
+        "knowledge_experience": [
+          "Broad &/or deep knowledge &/or fundamental understanding of concepts, principles & practices",
+          "Understands business processes, particularly those within functional unit; deep specialization in complex fields of knowledge",
+          "Understands the organization & provides technical guidance to other employees or specialist",
+          "Supports customer relationships & has strong communications skills; primarily concerned with influencing, developing, motivating (i.e. ability to persuade &/or negotiate)",
+          "Thorough knowledge & understanding of technical /professional specialization",
+          "6-8 years post graduate",
+          "Broad mix of technical applications & organizational experience"
+        ],
+        "decision_making": [
+          "Analyses specific issues, procedures & or products",
+          "Provides recommendations on improving procedure & processes where situations are often grey &/or ambiguous; significant judgement is required",
+          "Has decision-making authority & autonomy to deliver on goals of team; makes decisions regarding work & development of team; influences others outside of team to ensure goals met & conflict resolved in effective manner",
+          "Significant analysis of complex issues with expectations for specific recommendations",
+          "Directed by functional practices & management precedent, has significant freedom to manage risk & act in area of professional expertise"
+        ],
+        "customer_relationship": [
+          "Assists in the development & implementation of customer service enhancements in own functional area including responses to customer feedback; plays a role &/or coaches others to ensure customer conflicts, concerns & issues are resolved",
+          "Seeks our new avenues for building internal & external relationships; maintains on going, contact with existing relationships; coaches others on relationship management issues",
+          "Full interaction & participation as a team member, ensures ongoing exchange of technical information & experience"
+        ],
+        "leadership": [
+          "Establishes & communicates common goals & direction for team, coaches others on how to enhance communication, problem solving team work & innovation; involves others in problem solving, decision making & creative thinking"
+        ],
+        "project_management": [
+          "Both single focused & cross functional; within one department although work may cross over into other departments",
+          "Identifies needs & provides technical direction in the design of alternative applications"
+        ]
+      }
+    },
+    "EC-12": {
+      "level": 12,
+      "title": "Manager/Senior Consultant",
+      "grade_code": "F I+ 3 or F II 2 / E 4 / E 5+",
+      "categories": {
+        "accountabilities": [
+          "Provides managerial direction for a specific business processes/functions or project teams",
+          "Responsible for high level revenue & cost containment contributions of significant importance",
+          "Plans, schedules & reviews the work of (professionals & supervisors)",
+          "Responsible for conducting &/ or contributing to performance appraisals & planning for training & development of staff",
+          "Make recommendations concerning selection, discipline, & remuneration",
+          "Provides technical expertise in a highly specialized function",
+          "First level of full, functional specialization & has sufficient technical specialization to be call upon as a senior consultant",
+          "Actively participates as key player in coordinated business plan involving functional areas",
+          "Provides ideas, opinions & advice to others"
+        ],
+        "knowledge_experience": [
+          "Possesses general knowledge of a few business processes & more specific knowledge of one particular functional unit",
+          "Full appreciation of organizations business & interactions",
+          "8-10 years breadth of experience within profession/specialization",
+          "Advanced specialization in one or more areas of expertise; applies expertise cross-functionally",
+          "Supports customer relationships & possesses strong interpersonal, people management, negotiation & communication skills"
+        ],
+        "decision_making": [
+          "Resolves most issues of an operational nature within unit/function",
+          "Identifies opportunities for process improvement / product development/ customer relations by presenting & recommending alternatives",
+          "Has decision- making authority & autonomy to deliver on goals of department/function, as applicable; influences others cross functionally to ensure department/functional goals met & conflicts resolved ineffective manner",
+          "Encounters non-recurring challenges & must continually interpret, evaluate & assess to develop options",
+          "Conducts significant analysis requiring a broad interpretation of issues & the integration of several areas of technical specialization",
+          "Applies mature technical knowledge in planning, conducting & coordinating difficult, responsible assignments",
+          "Lead by functional policies & general management direction",
+          "Has considerable freedom to act & must be aware of high-risk components of work"
+        ],
+        "customer_relationship": [
+          "Recognizes the need to maintain strong customer relationships & works to meet & exceed current customer's needs/requirements",
+          "Assists in the development & implementation of customer service enhancements on cross functional basis; plays role in resolving issues that require a cross functional solution; facilitates sharing of best practices on customer service",
+          "Builds cross functional relationships to gain support; maintains positive relationships with key customers, suppliers etc. who have a significant impact on the success of the organization, may represent the organization in public speaking venues &/or community events"
+        ],
+        "leadership": [
+          "Usually reports to a Managing Director or Director",
+          "Establishes & communicates common goals & direction for functional area; coordinates cross-functional communication, problem solving & team initiatives, champions' suitable ideas & innovations",
+          "Provides regular coaching & guidance to less experienced specialists / professionals"
+        ],
+        "project_management": [
+          "Provides leadership to significant technical/business projects; May contribute unique specialization",
+          "The primary focus is to manage the processes for planning, executing, monitoring & delivering projects which directly impact the successful implementation of the priorities of the division/department & government"
+        ]
+      }
+    },
+    "EC-13": {
+      "level": 13,
+      "title": "Director",
+      "grade_code": "F II 3 / E+ 4 / E 6 or E+ 6",
+      "categories": {
+        "accountabilities": [
+          "Provides managerial direction to a large business function/unit or multiple business process/ function or project team OR Senior Manager of a separate entity",
+          "Has a significant impact on the business unit OR Develops short & long term strategies for the entity",
+          "Responsible to manage major capital budgets",
+          "Has a corporate line of sight (but not direct accountability) \u2013 it is a unique position with accountability for running the business (i.e. self-contained business unit) but not final signoff",
+          "Specialized professional with government-wide accountability",
+          "Provides advanced technical expertise in a specialized function",
+          "Critical player in coordinated business plan involving functional areas",
+          "Performs in a strategy advisory/consulting role to a division, across government & to executive officers on highly complex matters in functional discipline"
+        ],
+        "knowledge_experience": [
+          "Possesses knowledge of a many business processes & possesses a deep experience within area of expertise & in-depth understanding & advanced knowledge of area or function",
+          "9-10 years breadth of experience within profession/ specialization",
+          "Highly seasoned, recognized specialist/ professional with comprehensive knowledge; is considered an expert internally & externally within specialty area"
+        ],
+        "decision_making": [
+          "Significantly improves business processes within the function or within major projects",
+          "Has decision- making authority & autonomy to deliver on goals of functional areas",
+          "Key influencer to others cross functionally to ensure department/ functional goals met & conflicts resolved in an effective manner",
+          "Encounters complex non-recurring challenges & must continually interpret, evaluate & assess to develop options",
+          "Applies mature technical knowledge in planning, conducting & coordinating difficult, responsible assignments",
+          "Work is accepted technically as accurate & feasible",
+          "Has freedom to act & must be aware of high-risk components of work"
+        ],
+        "customer_relationship": [
+          "Can report into all levels of government & acts upon the information found",
+          "Works with other leaders to develop integrated strategies for improving customer satisfaction & customer service that support overall business goals; works with others to develop integrated strategies for enhancing internal systems & practices to better support customer service",
+          "Builds cross functional relationships to gain support; maintains positive relationships with key customers, suppliers etc. who have a significant impact on the success of the organization, may represent the organization in public speaking venues &/or community events (is a key influencer)"
+        ],
+        "leadership": [
+          "Usually reports to a Managing Director or Executive Director",
+          "Communicates vision/business direction & identifies functional or section/division linkages",
+          "Retention of high potential &/or essential talent, usually a specialty"
+        ],
+        "project_management": [
+          "Identify, lead & plan major province wide & cross departmental initiatives significant impact of project",
+          "Oversees major projects, which can have impact on other departments, to ensure all work is integrated & aligned with business goals",
+          "Manages large, complex & strategically significant projects that have government wide impact. Leads other project management staff"
+        ]
+      }
+    },
+    "EC-14": {
+      "level": 14,
+      "title": "Director",
+      "grade_code": "F II+ 3 / E+ 4 or F 4 / E+ 6 or F 6-",
+      "categories": {
+        "accountabilities": [
+          "Provides direction to multiple business process/ multi-function or project team(s) OR Senior Executive of a large separate entity",
+          "Has a significant impact on the division with core long-term strategic responsibility",
+          "Responsible to manage major capital budgets",
+          "Has a corporate line of sight with accountability for running the business (i.e. self-contained business unit) but may not have final signoff",
+          "Performs strategy advisory/principal level consulting role to senior executives, across government & to executive officers on highly complex matters in multi-functional discipline"
+        ],
+        "knowledge_experience": [
+          "Possesses broad knowledge of many business processes & possesses a deep experience within area(s) of expertise",
+          "In-depth understanding & advanced knowledge of multiple area or function that are diverse in nature",
+          "10+ years breadth of experience within profession/ specialization",
+          "Highly seasoned, recognized specialist/ professional with comprehensive knowledge; is considered an expert internally & externally within functional area"
+        ],
+        "decision_making": [
+          "Directs business processes within the function or within major projects/initiatives",
+          "Has decision-making authority & autonomy to deliver on goals of multiple functions or division; key influencer to others cross functionally to ensure department/functional goals met & conflicts resolved ineffective manner",
+          "Encounters complex non-recurring challenges & must continually interpret, evaluate & assess to develop options",
+          "Applies mature technical knowledge in planning, conducting & coordinating difficult, responsible assignments",
+          "Work is accepted technically as accurate & feasible",
+          "Has freedom to act & must be aware of high-risk components of work"
+        ],
+        "customer_relationship": [
+          "Can report into all levels of government & acts upon the information found",
+          "Works with other senior leaders to develop integrated strategies for improving customer satisfaction & customer service that support overall business goals; works with others to develop integrated strategies for enhancing internal systems & practices to better support customer service",
+          "Builds cross functional & cross divisional relationships to gain support; maintains positive relationships with key customers, suppliers etc. who have a significant impact on the success of the organization, may represent the organization in public speaking venues &/or community events (is a key influencer)"
+        ],
+        "leadership": [
+          "Usually reports to an Executive Director",
+          "Provides clarity regarding division's core business function, roles & responsibilities & makes decisions regarding strategic direction & operation of the section"
+        ],
+        "project_management": [
+          "Responsible for the strategic direction of project initiatives",
+          "Lead, directs, & guides development & implementation of major initiatives & projects on behalf of the division/department"
+        ]
+      }
+    },
+    "EC-15": {
+      "level": 15,
+      "title": "Director/Managing Director",
+      "grade_code": "F III 3 / F 4 / F 6",
+      "categories": {
+        "accountabilities": [
+          "Provides executive level direction within a Department, Agency, or Office (thereafter called department)",
+          "Has a significant impact on the department &/or across government & develops long term strategies & total departmental guidelines",
+          "Executive leadership to a large specialized function or multiple functional areas within a department",
+          "Responsible to manage major capital budgets",
+          "Responsible to integrate several business functions across the department & government",
+          "Has departmental accountability & final signoff within a division"
+        ],
+        "knowledge_experience": [
+          "Possesses broad knowledge of many business functions & possesses a deep experience within areas of expertise",
+          "In-depth understanding & advanced knowledge of area or functions",
+          "10+ years breadth of experience within profession/specialization",
+          "Minimum of 3 years at a senior level",
+          "Executive-level experience including translating organizational vision into operations, developing & executing policy initiatives, developing & managing human resources & budgets, & managing complex partnerships & stakeholder relationships",
+          "Demonstrated experience in the management & development of staff or progressive experience leading senior level projects or program teams"
+        ],
+        "decision_making": [
+          "Improves business processes within the function or within major projects",
+          "Has decision-making authority & autonomy to deliver on goals of multiple functions or division",
+          "Key influencer to others cross functionally to ensure department/ functional goals met & conflicts resolved ineffective manner",
+          "Encounters complex non-recurring challenges & must continually interpret, evaluate & assess to develop options",
+          "Applies mature technical knowledge in planning, conducting & coordinating difficult, responsible assignments",
+          "Work is accepted technically as accurate & feasible",
+          "Has freedom to act & must be aware of high-risk components of work"
+        ],
+        "customer_relationship": [
+          "Can report into all levels of government & acts upon the information found",
+          "Works with other department leaders (internal & external to department) to develop integrated strategies for improving customer satisfaction & customer service that support overall business goals; works with others to develop integrated strategies for enhancing internal systems & practices to better support customer service",
+          "Builds cross functional relationships to gain support; maintains positive relationships with key stakeholders who have a significant impact on the success of government, may represent the department/government in public speaking venues &/or community events. (is the key influencer)"
+        ],
+        "leadership": [
+          "Usually reports to a Deputy Head",
+          "Communicates long-term vision for a division with a few related functions or one major function",
+          "Leads change"
+        ],
+        "project_management": [
+          "Provides strategic direction (leadership & vision) for project initiatives",
+          "Provides high-level direction to Directors who are accountable to lead, direct & guide the development & implementation of a major initiatives & projects on behalf of the department, & under the authority of the Deputy Head"
+        ]
+      }
+    },
+    "EC-16": {
+      "level": 16,
+      "title": "Executive Director",
+      "grade_code": "F+ III 3 / F+ 4 / F 6+",
+      "categories": {
+        "accountabilities": [
+          "Provides executive level direction within a Department, Agency, or Office (thereafter called department)",
+          "Has a significant impact on the department &/or across government & develops long term strategies & total departmental guidelines",
+          "Executive leadership to multiple diverse functional areas",
+          "Responsible to manage major capital budgets",
+          "Responsible to integrate several business functions across the department & government",
+          "Has departmental accountability & final signoff within a division"
+        ],
+        "knowledge_experience": [
+          "Possesses substantial broad &/or deep knowledge of diverse/multiple business functions within a department",
+          "10-15 years breadth of experience within profession/specialization",
+          "minimum of 3 years at a senior level",
+          "Executive-level experience including translating organizational vision into operations, developing & executing policy initiatives, developing & managing human resources & budgets, & managing complex partnerships & stakeholder relationships",
+          "Demonstrated extensive experience in the management & development of staff or progressive experience leading senior level projects or program teams",
+          "Highly seasoned, recognized specialist/ professional with comprehensive knowledge; is considered an expert internally & externally within profession"
+        ],
+        "decision_making": [
+          "Significantly improves business processes within major function/business or within cross governmental initiatives",
+          "Has decision-making authority & autonomy to deliver on goals of multiple functions or divisions",
+          "Key influencer to others cross functionally to ensure department/functional goals met & conflicts resolved in effective manner",
+          "Encounters complex non-recurring challenges & must continually interpret, evaluate & assess to develop options",
+          "Applies mature technical knowledge in planning, conducting & coordinating difficult, responsible initiatives",
+          "Has significant freedom to act & awareness of high-risk components of work"
+        ],
+        "customer_relationship": [
+          "Can report into all levels of government & acts upon the information found",
+          "Works with other department leaders (internal & external to department) to develop integrated strategies for improving customer satisfaction & customer service that support overall business goals; works with others to develop integrated strategies for enhancing internal systems & practices to better support customer service",
+          "Builds cross functional relationships to gain support; maintains positive relationships with key stakeholders who have a significant impact on the success of government, may represent the department/government in public speaking venues &/or community events. (is the key influencer)"
+        ],
+        "leadership": [
+          "Usually reports to a Deputy Head",
+          "Communicates long-term vision for a division with multiple related & unrelated functions",
+          "Leads change"
+        ],
+        "project_management": [
+          "Provides strategic direction (leadership & vision) for project initiatives",
+          "Provides high-level direction to Director who is accountable to lead, direct & guide the development & implementation of a major initiatives & projects on behalf of the department, & under the authority of the Deputy Head"
+        ]
+      }
+    },
+    "EC-17": {
+      "level": 17,
+      "title": "Chief Officer/Controller/Executive Director",
+      "grade_code": "G III 3 / F+ 4 / F 7",
+      "categories": {
+        "accountabilities": [
+          "Provides executive level direction within a large &/or complex Department, Agency, or Office (thereafter called department)",
+          "Has significant impact across government & develops long-term strategies & total departmental level guidelines",
+          "Executive leadership to multiple large & diverse functional areas",
+          "Responsible to manage major capital budgets",
+          "Responsible to integrate several business functions across the department & government",
+          "Has departmental accountability & final signoff within a major & complex division"
+        ],
+        "knowledge_experience": [
+          "Possesses diverse, substantial/cumulative knowledge of multiple business functions within a complex department",
+          "15+ years breadth of experience within profession/specialization",
+          "Minimum 3 years at a senior level",
+          "Executive-level experience including translating organizational vision into operations, developing & executing policy initiatives, developing & managing human resources & budgets, & managing complex partnerships & stakeholder relationships",
+          "Demonstrated extensive experience in the management & development of staff or progressive experience leading senior level projects or program teams",
+          "Highly seasoned, recognized expert/professional with comprehensive knowledge; is considered an expert internally & externally within profession"
+        ],
+        "decision_making": [
+          "Significantly improves business processes within major function/business or within major cross governmental initiatives",
+          "Has decision-making authority over a large and complex area(s) & autonomy to deliver on goals of multiple functions or divisions",
+          "Key influencer to others cross functionally to ensure department/functional goals met & conflicts resolved in effective manner",
+          "Encounters complex non-recurring challenges & must continually interpret, evaluate & assess to develop options",
+          "Applies mature technical knowledge in planning, conducting & coordinating difficult, responsible initiatives",
+          "Has significant freedom to act & awareness of high-risk components of work"
+        ],
+        "customer_relationship": [
+          "Can report into all levels of government & acts upon the information found",
+          "Works with other department leaders (internal & external to department) to develop integrated strategies for improving customer satisfaction & customer service that support overall business goals; works with others to develop integrated strategies for enhancing internal systems & practices to better support customer service",
+          "Builds cross functional relationships to gain support; maintains positive relationships with key stakeholders who have a significant impact on the success of government, may represent the department/government in public speaking venues &/or community events. (is the key influencer)"
+        ],
+        "leadership": [
+          "Usually reports to a Deputy Head",
+          "Communicates long-term vision for a large/multi-functional & complex division",
+          "Leads change"
+        ],
+        "project_management": [
+          "Provides strategic direction (leadership & vision) for major & cross-departmental project initiatives",
+          "Provides high-level direction to Directors who are accountable to lead, direct & guide the development & implementation of a major initiatives & projects on behalf of the department, & under the authority of the Deputy Head"
+        ]
+      }
+    }
+  }
+}

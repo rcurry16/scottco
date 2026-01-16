@@ -92,7 +92,7 @@ jobs:
             EOF
 
             # Restart services
-            sudo systemctl restart scottco job-eval
+            sudo systemctl restart job-desc job-eval
 
             echo "✅ Deployment complete - code updated, dependencies installed, services restarted"
             echo "📍 Location: /var/www/scottco-github"

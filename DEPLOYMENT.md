@@ -82,14 +82,14 @@ uv pip install -e .
 deactivate
 
 # Restart services
-sudo systemctl restart scottco job-eval
+sudo systemctl restart job-desc job-eval
 ```
 
 ## System Services
 
-### Job Description Generator (scottco.service)
+### Job Description Generator (job-desc.service)
 
-**Service File:** `/etc/systemd/system/scottco.service`
+**Service File:** `/etc/systemd/system/job-desc.service`
 
 ```ini
 [Unit]
@@ -105,6 +105,8 @@ EnvironmentFile=/var/www/scottco-github/job-description/.env
 ExecStart=/var/www/scottco-github/job-description/.venv/bin/uvicorn job_description.app:app --host 0.0.0.0 --port 8000
 Restart=always
 RestartSec=3
+StandardOutput=journal
+StandardError=journal
 
 [Install]
 WantedBy=multi-user.target
@@ -112,11 +114,11 @@ WantedBy=multi-user.target
 
 **Commands:**
 ```bash
-sudo systemctl status scottco
-sudo systemctl restart scottco
-sudo systemctl stop scottco
-sudo systemctl start scottco
-sudo journalctl -u scottco -f  # View logs
+sudo systemctl status job-desc
+sudo systemctl restart job-desc
+sudo systemctl stop job-desc
+sudo systemctl start job-desc
+sudo journalctl -u job-desc -f  # View logs
 ```
 
 ### Job Evaluation Tool (job-eval.service)
@@ -281,11 +283,11 @@ Host github.com-scottco
 ### Service Won't Start
 ```bash
 # Check service status
-sudo systemctl status scottco
+sudo systemctl status job-desc
 sudo systemctl status job-eval
 
 # View recent logs
-sudo journalctl -u scottco -n 50
+sudo journalctl -u job-desc -n 50
 sudo journalctl -u job-eval -n 50
 
 # Check if ports are in use
@@ -325,7 +327,7 @@ source .venv/bin/activate
 uv pip install --force-reinstall -e .
 deactivate
 
-sudo systemctl restart scottco job-eval
+sudo systemctl restart job-desc job-eval
 ```
 
 ## Initial Setup (For Reference)
@@ -357,8 +359,8 @@ If setting up on a new server:
 6. **Enable and start services:**
    ```bash
    sudo systemctl daemon-reload
-   sudo systemctl enable scottco job-eval
-   sudo systemctl start scottco job-eval
+   sudo systemctl enable job-desc job-eval
+   sudo systemctl start job-desc job-eval
    ```
 
 7. **Configure Nginx** (as shown in Nginx Configuration section)
@@ -383,8 +385,8 @@ If setting up on a new server:
 
 ### Regular Tasks
 - Monitor disk space: `df -h`
-- Check service status: `sudo systemctl status scottco job-eval`
-- Review logs periodically: `sudo journalctl -u scottco -u job-eval --since "1 day ago"`
+- Check service status: `sudo systemctl status job-desc job-eval`
+- Review logs periodically: `sudo journalctl -u job-desc -u job-eval --since "1 day ago"`
 - SSL certificates auto-renew, but verify: `sudo certbot renew --dry-run`
 
 ### Updating Dependencies
@@ -396,7 +398,7 @@ Dependencies are updated on every deployment. To manually update:
 ## Support
 
 For issues or questions:
-- Check logs: `sudo journalctl -u scottco -u job-eval -f`
+- Check logs: `sudo journalctl -u job-desc -u job-eval -f`
 - Review GitHub Actions runs: https://github.com/rcurry16/scottco/actions
 - Verify all URLs are accessible
-- Check that services are running: `sudo systemctl status scottco job-eval`
+- Check that services are running: `sudo systemctl status job-desc job-eval`

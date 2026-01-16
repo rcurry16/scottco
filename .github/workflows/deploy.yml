@@ -32,15 +32,6 @@ jobs:
           cd job-description
           uv sync --dev
           uv pip install -e .
-          echo "=== Debug: List tests directory ==="
-          ls -la tests/
-          echo "=== Debug: Try importing app ==="
-          uv run python -c "from job_description.app import app; print('Import successful')"
-          echo "=== Debug: Try importing test module ==="
-          uv run python -c "import sys; sys.path.insert(0, 'tests'); import test_api; print('Test module imported')"
-          echo "=== Debug: Collect only ==="
-          uv run pytest --collect-only -v
-          echo "=== Running tests ==="
           uv run pytest -v
 
   deploy:

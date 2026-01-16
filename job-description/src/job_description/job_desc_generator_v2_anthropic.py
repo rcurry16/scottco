@@ -57,8 +57,22 @@ def get_anthropic_provider():
     return AnthropicProvider(api_key=api_key)
 
 
-provider = get_anthropic_provider()
-model = AnthropicModel(config.ANTHROPIC_MODEL, provider=provider)
+def get_model():
+    """Lazy initialization of model to allow env vars to be set before import"""
+    provider = get_anthropic_provider()
+    return AnthropicModel(config.ANTHROPIC_MODEL, provider=provider)
+
+
+# Lazy model - initialized on first use
+_model = None
+
+
+def model():
+    """Get or create the Anthropic model"""
+    global _model
+    if _model is None:
+        _model = get_model()
+    return _model
 
 
 # ============================================================================
@@ -181,7 +195,7 @@ async def run_agent_with_retry(agent, prompt, operation="generate", max_retries=
 # ============================================================================
 
 job_info_agent = Agent(
-    model=model,
+    model=model(),
     output_type=tuple[JobInformation, OverallPurpose, RoleLevelAssessment],
     retries=3,
     system_prompt="""
@@ -226,7 +240,7 @@ job_info_agent = Agent(
 # ============================================================================
 
 responsibilities_agent = Agent(
-    model=model,
+    model=model(),
     output_type=KeyResponsibilities,
     retries=3,
     system_prompt="""
@@ -257,7 +271,7 @@ responsibilities_agent = Agent(
 # ============================================================================
 
 people_mgmt_agent = Agent(
-    model=model,
+    model=model(),
     output_type=PeopleManagement,
     retries=3,
     system_prompt="""
@@ -291,7 +305,7 @@ people_mgmt_agent = Agent(
 # ============================================================================
 
 scope_agent = Agent(
-    model=model,
+    model=model(),
     output_type=ScopeSection,
     retries=5,
     system_prompt="""
@@ -343,7 +357,7 @@ scope_agent = Agent(
 # ============================================================================
 
 requirements_agent = Agent(
-    model=model,
+    model=model(),
     output_type=LicensesCertifications,
     retries=3,
     system_prompt="""
@@ -376,7 +390,7 @@ requirements_agent = Agent(
 # ============================================================================
 
 working_conditions_agent = Agent(
-    model=model,
+    model=model(),
     output_type=WorkingConditions,
     retries=3,
     system_prompt="""

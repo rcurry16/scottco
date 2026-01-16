@@ -47,13 +47,29 @@ from . import output_formatter
 # ============================================================================
 
 def get_mistral_provider():
-    """Initialize Mistral provider with API key"""
-    api_key = "lenpipOpfSKOm57F8XyLxp0rvjh8wZHz"
+    """Initialize Mistral provider with API key from environment"""
+    api_key = os.getenv("MISTRAL_API_KEY")
+    if not api_key:
+        raise ValueError("MISTRAL_API_KEY environment variable is not set")
     return MistralProvider(api_key=api_key)
 
 
-provider = get_mistral_provider()
-model = MistralModel("mistral-small-latest", provider=provider)
+def get_model():
+    """Lazy initialization of model to allow env vars to be set before import"""
+    provider = get_mistral_provider()
+    return MistralModel("mistral-small-latest", provider=provider)
+
+
+# Lazy model - initialized on first use
+_model = None
+
+
+def model():
+    """Get or create the Mistral model"""
+    global _model
+    if _model is None:
+        _model = get_model()
+    return _model
 
 
 # ============================================================================
@@ -139,7 +155,7 @@ async def run_agent_with_logging(agent, prompt, operation="generate"):
 # ============================================================================
 
 job_info_agent = Agent(
-    model=model,
+    model=model(),
     output_type=tuple[JobInformation, OverallPurpose, RoleLevelAssessment],
     retries=3,
     system_prompt="""
@@ -184,7 +200,7 @@ job_info_agent = Agent(
 # ============================================================================
 
 responsibilities_agent = Agent(
-    model=model,
+    model=model(),
     output_type=KeyResponsibilities,
     retries=3,
     system_prompt="""
@@ -215,7 +231,7 @@ responsibilities_agent = Agent(
 # ============================================================================
 
 people_mgmt_agent = Agent(
-    model=model,
+    model=model(),
     output_type=PeopleManagement,
     retries=3,
     system_prompt="""
@@ -249,7 +265,7 @@ people_mgmt_agent = Agent(
 # ============================================================================
 
 scope_agent = Agent(
-    model=model,
+    model=model(),
     output_type=ScopeSection,
     retries=3,
     system_prompt="""
@@ -299,7 +315,7 @@ scope_agent = Agent(
 # ============================================================================
 
 requirements_agent = Agent(
-    model=model,
+    model=model(),
     output_type=LicensesCertifications,
     retries=3,
     system_prompt="""
@@ -332,7 +348,7 @@ requirements_agent = Agent(
 # ============================================================================
 
 working_conditions_agent = Agent(
-    model=model,
+    model=model(),
     output_type=WorkingConditions,
     retries=3,
     system_prompt="""

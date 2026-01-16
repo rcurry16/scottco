@@ -51,9 +51,9 @@ output/
 # Logs
 *.log
 
-# Test files
-test_*.py
-*_test.py
+# Temporary test files (keep actual tests in tests/ directory)
+# test_*.py
+# *_test.py
 
 # Jupyter Notebooks
 .ipynb_checkpoints/

@@ -9,12 +9,18 @@ Usage:
 """
 
 import os
+import logging
+import time
 from datetime import datetime
 from pydantic_ai import Agent
 from pydantic_ai.providers.mistral import MistralProvider
 from pydantic_ai.models.mistral import MistralModel
 
 import config
+from logging_config import log_with_extra
+
+# Initialize logger
+logger = logging.getLogger("job_description.generator_mistral")
 from models import (
     UserResponses,
     OrganizationalContext,
@@ -48,6 +54,84 @@ def get_mistral_provider():
 
 provider = get_mistral_provider()
 model = MistralModel("mistral-small-latest", provider=provider)
+
+
+# ============================================================================
+# LOGGING WRAPPER
+# ============================================================================
+
+async def run_agent_with_logging(agent, prompt, operation="generate"):
+    """
+    Run an agent with logging for monitoring.
+
+    Args:
+        agent: The pydantic_ai Agent to run
+        prompt: The prompt to send to the agent
+        operation: Description of the operation for logging
+
+    Returns:
+        The agent result
+
+    Raises:
+        Any exception from the agent
+    """
+    # Log LLM call start
+    start_time = time.time()
+    log_with_extra(
+        logger,
+        logging.INFO,
+        "LLM call started",
+        provider="mistral",
+        operation=operation,
+        model="mistral-small-latest",
+        event="llm_call_start"
+    )
+
+    try:
+        result = await agent.run(prompt)
+
+        # Extract token usage from pydantic-ai result
+        usage = result.usage()
+        input_tokens = usage.request_tokens if hasattr(usage, 'request_tokens') else 0
+        output_tokens = usage.response_tokens if hasattr(usage, 'response_tokens') else 0
+        total_tokens = usage.total_tokens if hasattr(usage, 'total_tokens') else (input_tokens + output_tokens)
+
+        # Log LLM call success with token usage
+        duration = time.time() - start_time
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "LLM call completed",
+            provider="mistral",
+            operation=operation,
+            model="mistral-small-latest",
+            duration_seconds=round(duration, 3),
+            input_tokens=input_tokens,
+            output_tokens=output_tokens,
+            total_tokens=total_tokens,
+            success=True,
+            event="llm_call_complete"
+        )
+
+        return result
+
+    except Exception as e:
+        # Log LLM call failure
+        duration = time.time() - start_time
+        log_with_extra(
+            logger,
+            logging.ERROR,
+            f"LLM call failed: {str(e)}",
+            provider="mistral",
+            operation=operation,
+            model="mistral-small-latest",
+            duration_seconds=round(duration, 3),
+            success=False,
+            error=str(e),
+            error_type=type(e).__name__,
+            event="llm_call_complete"
+        )
+        raise
 
 
 # ============================================================================
@@ -453,7 +537,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     3. Internal role level assessment (Entry/Mid/Senior/Executive)
     """
 
-    job_info_result = await job_info_agent.run(job_info_prompt)
+    job_info_result = await run_agent_with_logging(job_info_agent, job_info_prompt, operation="generate_job_info")
     job_info, overall_purpose, role_level_assessment = job_info_result.output
 
     # Track tokens
@@ -489,7 +573,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     Calibrate language sophistication and scope for a {role_level_assessment.inferred_level.value}-level role.
     """
 
-    responsibilities_result = await responsibilities_agent.run(responsibilities_prompt)
+    responsibilities_result = await run_agent_with_logging(responsibilities_agent, responsibilities_prompt, operation="generate_responsibilities")
     key_responsibilities = responsibilities_result.output
 
     # Track tokens
@@ -520,7 +604,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     Generate realistic people management details based on the role level and information provided.
     """
 
-    people_mgmt_result = await people_mgmt_agent.run(people_mgmt_prompt)
+    people_mgmt_result = await run_agent_with_logging(people_mgmt_agent, people_mgmt_prompt, operation="generate_people_mgmt")
     people_management = people_mgmt_result.output
 
     # Track tokens
@@ -563,7 +647,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     Calibrate detail level for {role_level_assessment.inferred_level.value} role (entry=brief, executive=detailed).
     """
 
-    scope_result = await scope_agent.run(scope_prompt)
+    scope_result = await run_agent_with_logging(scope_agent, scope_prompt, operation="generate_scope")
     scope = scope_result.output
 
     # Track tokens
@@ -592,7 +676,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     If none are clearly required, return an empty list.
     """
 
-    requirements_result = await requirements_agent.run(requirements_prompt)
+    requirements_result = await run_agent_with_logging(requirements_agent, requirements_prompt, operation="generate_requirements")
     licenses_certs = requirements_result.output
 
     # Track tokens
@@ -644,7 +728,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
         "psychological_pressures": config.STANDARD_WORKING_CONDITIONS["psychological_pressures"]
     }
 
-    working_conditions_result = await working_conditions_agent.run(working_conditions_prompt)
+    working_conditions_result = await run_agent_with_logging(working_conditions_agent, working_conditions_prompt, operation="generate_working_conditions")
     working_conditions = working_conditions_result.output
 
     # Track tokens

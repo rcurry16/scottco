@@ -1,4 +1,4 @@
-name: Deploy to VPS
+name: Test and Deploy to VPS
 
 on:
   push:
@@ -6,7 +6,35 @@ on:
       - main
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Test job-evaluation
+        run: |
+          cd job-evaluation
+          uv sync --dev
+          uv run pytest -v
+
+      - name: Test job-description
+        run: |
+          cd job-description
+          uv sync --dev
+          uv run pytest -v
+
   deploy:
+    needs: test
     runs-on: ubuntu-latest
 
     steps:

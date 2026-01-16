@@ -12,16 +12,24 @@ Usage:
 
 import os
 import asyncio
+import logging
+import time
+import uuid
 from datetime import datetime
 from typing import Dict, Optional
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from starlette.middleware.base import BaseHTTPMiddleware
 
 import config
+from logging_config import log_with_extra
+
+# Initialize logger
+logger = logging.getLogger("job_description.api")
 from models import (
     UserResponses,
     OrganizationalContext,
@@ -44,6 +52,75 @@ app = FastAPI(
     version="1.0.0",
     root_path="/job-description"
 )
+
+
+# Logging middleware
+class LoggingMiddleware(BaseHTTPMiddleware):
+    """Middleware to log all HTTP requests with structured JSON logging."""
+
+    async def dispatch(self, request: Request, call_next):
+        """Log request start, process request, and log completion."""
+        request_id = str(uuid.uuid4())
+        client_ip = request.client.host if request.client else "unknown"
+        start_time = time.time()
+
+        # Attach request_id to request state for use in endpoints
+        request.state.request_id = request_id
+
+        # Log request start
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "Request started",
+            request_id=request_id,
+            ip=client_ip,
+            method=request.method,
+            path=request.url.path,
+            event="request_start"
+        )
+
+        # Process request
+        try:
+            response = await call_next(request)
+        except Exception as e:
+            # Log exception
+            total_duration = time.time() - start_time
+            log_with_extra(
+                logger,
+                logging.ERROR,
+                f"Request failed: {str(e)}",
+                request_id=request_id,
+                ip=client_ip,
+                method=request.method,
+                path=request.url.path,
+                total_duration_seconds=round(total_duration, 3),
+                error_type=type(e).__name__,
+                error_message=str(e),
+                event="error"
+            )
+            raise
+
+        # Calculate total duration
+        total_duration = time.time() - start_time
+
+        # Log request completion
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "Request completed",
+            request_id=request_id,
+            ip=client_ip,
+            method=request.method,
+            path=request.url.path,
+            status_code=response.status_code,
+            total_duration_seconds=round(total_duration, 3),
+            event="request_complete"
+        )
+
+        return response
+
+
+app.add_middleware(LoggingMiddleware)
 
 # Mount static files directory
 static_dir = Path(__file__).parent / "static"
@@ -227,7 +304,7 @@ async def generate_job_descriptions(request: GenerationRequest):
 
 
 @app.get("/api/download/{provider}/{job_id}/{format}")
-async def download_job_description(provider: str, job_id: str, format: str):
+async def download_job_description(request: Request, provider: str, job_id: str, format: str):
     """
     Download job description in specified format
 
@@ -236,6 +313,8 @@ async def download_job_description(provider: str, job_id: str, format: str):
         job_id: The job session ID
         format: "txt", "pdf", or "docx"
     """
+    request_id = getattr(request.state, "request_id", None)
+
     # Validate format
     if format not in ["txt", "pdf", "docx"]:
         raise HTTPException(status_code=400, detail="Invalid format. Must be txt, pdf, or docx")
@@ -250,6 +329,21 @@ async def download_job_description(provider: str, job_id: str, format: str):
         raise HTTPException(status_code=404, detail=f"Job description file not found for format: {format}")
 
     filepath = matching_files[0]
+
+    # Log file download
+    if request_id:
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "File downloaded",
+            request_id=request_id,
+            operation="download",
+            filename=filepath.name,
+            file_size_bytes=filepath.stat().st_size,
+            provider=provider,
+            format=format,
+            event="file_download"
+        )
 
     # Set appropriate media type
     media_types = {

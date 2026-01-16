@@ -12,12 +12,18 @@ Usage:
 
 import os
 import asyncio
+import logging
+import time
 from datetime import datetime
 from pydantic_ai import Agent
 from pydantic_ai.providers.anthropic import AnthropicProvider
 from pydantic_ai.models.anthropic import AnthropicModel
 
 import config
+from logging_config import log_with_extra
+
+# Initialize logger
+logger = logging.getLogger("job_description.generator_anthropic")
 from models import (
     UserResponses,
     OrganizationalContext,
@@ -59,13 +65,14 @@ model = AnthropicModel(config.ANTHROPIC_MODEL, provider=provider)
 # RETRY LOGIC FOR API CALLS
 # ============================================================================
 
-async def run_agent_with_retry(agent, prompt, max_retries=3, initial_delay=2):
+async def run_agent_with_retry(agent, prompt, operation="generate", max_retries=3, initial_delay=2):
     """
     Run an agent with exponential backoff retry logic for overloaded errors
 
     Args:
         agent: The pydantic_ai Agent to run
         prompt: The prompt to send to the agent
+        operation: Description of the operation for logging (default: "generate")
         max_retries: Maximum number of retry attempts (default: 3)
         initial_delay: Initial delay in seconds before first retry (default: 2)
 
@@ -79,19 +86,88 @@ async def run_agent_with_retry(agent, prompt, max_retries=3, initial_delay=2):
     delay = initial_delay
 
     for attempt in range(max_retries + 1):  # +1 for initial attempt
+        # Log LLM call start
+        start_time = time.time()
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "LLM call started",
+            provider="anthropic",
+            operation=operation,
+            model=config.ANTHROPIC_MODEL,
+            attempt=attempt + 1,
+            event="llm_call_start"
+        )
+
         try:
-            return await agent.run(prompt)
+            result = await agent.run(prompt)
+
+            # Extract token usage from pydantic-ai result
+            usage = result.usage()
+            input_tokens = usage.request_tokens if hasattr(usage, 'request_tokens') else 0
+            output_tokens = usage.response_tokens if hasattr(usage, 'response_tokens') else 0
+            total_tokens = usage.total_tokens if hasattr(usage, 'total_tokens') else (input_tokens + output_tokens)
+
+            # Log LLM call success with token usage
+            duration = time.time() - start_time
+            log_with_extra(
+                logger,
+                logging.INFO,
+                "LLM call completed",
+                provider="anthropic",
+                operation=operation,
+                model=config.ANTHROPIC_MODEL,
+                attempt=attempt + 1,
+                duration_seconds=round(duration, 3),
+                input_tokens=input_tokens,
+                output_tokens=output_tokens,
+                total_tokens=total_tokens,
+                success=True,
+                event="llm_call_complete"
+            )
+
+            return result
+
         except Exception as e:
             last_exception = e
             error_str = str(e)
+            duration = time.time() - start_time
 
             # Check if it's an overloaded error (529)
             if "529" in error_str or "overloaded" in error_str.lower():
                 if attempt < max_retries:
-                    print(f"   ⚠️  Model overloaded (attempt {attempt + 1}/{max_retries + 1}), retrying in {delay}s...")
+                    # Log retry warning
+                    log_with_extra(
+                        logger,
+                        logging.WARNING,
+                        f"Model overloaded, retrying in {delay}s",
+                        provider="anthropic",
+                        operation=operation,
+                        model=config.ANTHROPIC_MODEL,
+                        attempt=attempt + 1,
+                        retry_delay_seconds=delay,
+                        error=error_str,
+                        event="llm_retry"
+                    )
                     await asyncio.sleep(delay)
                     delay *= 2  # Exponential backoff
                     continue
+
+            # Log LLM call failure
+            log_with_extra(
+                logger,
+                logging.ERROR,
+                f"LLM call failed: {str(e)}",
+                provider="anthropic",
+                operation=operation,
+                model=config.ANTHROPIC_MODEL,
+                attempt=attempt + 1,
+                duration_seconds=round(duration, 3),
+                success=False,
+                error=error_str,
+                error_type=type(e).__name__,
+                event="llm_call_complete"
+            )
 
             # For non-overloaded errors, fail immediately
             raise
@@ -506,7 +582,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     """
 
     try:
-        job_info_result = await run_agent_with_retry(job_info_agent, job_info_prompt)
+        job_info_result = await run_agent_with_retry(job_info_agent, job_info_prompt, operation="generate_job_info")
         job_info, overall_purpose, role_level_assessment = job_info_result.output
 
         # Track tokens
@@ -547,7 +623,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     """
 
     try:
-        responsibilities_result = await run_agent_with_retry(responsibilities_agent, responsibilities_prompt)
+        responsibilities_result = await run_agent_with_retry(responsibilities_agent, responsibilities_prompt, operation="generate_responsibilities")
         key_responsibilities = responsibilities_result.output
 
         # Track tokens
@@ -585,7 +661,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     """
 
     try:
-        people_mgmt_result = await run_agent_with_retry(people_mgmt_agent, people_mgmt_prompt)
+        people_mgmt_result = await run_agent_with_retry(people_mgmt_agent, people_mgmt_prompt, operation="generate_people_mgmt")
         people_management = people_mgmt_result.output
 
         # Track tokens
@@ -636,7 +712,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     """
 
     try:
-        scope_result = await run_agent_with_retry(scope_agent, scope_prompt)
+        scope_result = await run_agent_with_retry(scope_agent, scope_prompt, operation="generate_scope")
         scope = scope_result.output
 
         # Track tokens
@@ -672,7 +748,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     """
 
     try:
-        requirements_result = await run_agent_with_retry(requirements_agent, requirements_prompt)
+        requirements_result = await run_agent_with_retry(requirements_agent, requirements_prompt, operation="generate_requirements")
         licenses_certs = requirements_result.output
 
         # Track tokens
@@ -731,7 +807,7 @@ async def generate_job_description(user_responses: UserResponses, org_context: O
     }
 
     try:
-        working_conditions_result = await run_agent_with_retry(working_conditions_agent, working_conditions_prompt)
+        working_conditions_result = await run_agent_with_retry(working_conditions_agent, working_conditions_prompt, operation="generate_working_conditions")
         working_conditions = working_conditions_result.output
 
         # Track tokens

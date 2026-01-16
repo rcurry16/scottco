@@ -1,7 +1,9 @@
 """Revaluation gauge - assess if changes warrant re-evaluation."""
 import json
+import logging
 import os
 import re
+import time
 from pathlib import Path
 from typing import Any
 
@@ -10,8 +12,11 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
 from .document_processor import DocumentProcessor
+from .logging_config import log_with_extra
 
 load_dotenv()
+
+logger = logging.getLogger("job_eval.gauge")
 
 
 class RevaluationRecommendation(BaseModel):
@@ -140,28 +145,78 @@ class RevaluationGauge:
         """Use Claude to assess if changes warrant re-evaluation."""
         prompt = self._build_assessment_prompt(comparison, new_position_text, current_level)
 
-        message = self.client.messages.create(
+        # Log LLM call start
+        start_time = time.time()
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "LLM call started",
+            provider="anthropic",
+            operation="gauge",
             model="claude-haiku-4-5",
-            max_tokens=4000,
-            temperature=0,
-            messages=[{"role": "user", "content": prompt}]
+            event="llm_call_start"
         )
 
-        response_text = message.content[0].text
+        try:
+            message = self.client.messages.create(
+                model="claude-haiku-4-5",
+                max_tokens=4000,
+                temperature=0,
+                messages=[{"role": "user", "content": prompt}]
+            )
 
-        # Extract JSON from response
-        if "```json" in response_text:
-            json_start = response_text.find("```json") + 7
-            json_end = response_text.find("```", json_start)
-            json_text = response_text[json_start:json_end].strip()
-        elif "```" in response_text:
-            json_start = response_text.find("```") + 3
-            json_end = response_text.find("```", json_start)
-            json_text = response_text[json_start:json_end].strip()
-        else:
-            json_text = response_text.strip()
+            response_text = message.content[0].text
 
-        return json.loads(json_text)
+            # Extract JSON from response
+            if "```json" in response_text:
+                json_start = response_text.find("```json") + 7
+                json_end = response_text.find("```", json_start)
+                json_text = response_text[json_start:json_end].strip()
+            elif "```" in response_text:
+                json_start = response_text.find("```") + 3
+                json_end = response_text.find("```", json_start)
+                json_text = response_text[json_start:json_end].strip()
+            else:
+                json_text = response_text.strip()
+
+            result = json.loads(json_text)
+
+            # Log LLM call success with token usage
+            duration = time.time() - start_time
+            log_with_extra(
+                logger,
+                logging.INFO,
+                "LLM call completed",
+                provider="anthropic",
+                operation="gauge",
+                model="claude-haiku-4-5",
+                duration_seconds=round(duration, 3),
+                input_tokens=message.usage.input_tokens,
+                output_tokens=message.usage.output_tokens,
+                total_tokens=message.usage.input_tokens + message.usage.output_tokens,
+                success=True,
+                event="llm_call_complete"
+            )
+
+            return result
+
+        except Exception as e:
+            # Log LLM call failure
+            duration = time.time() - start_time
+            log_with_extra(
+                logger,
+                logging.ERROR,
+                f"LLM call failed: {str(e)}",
+                provider="anthropic",
+                operation="gauge",
+                model="claude-haiku-4-5",
+                duration_seconds=round(duration, 3),
+                success=False,
+                error=str(e),
+                error_type=type(e).__name__,
+                event="llm_call_complete"
+            )
+            raise
 
     def _build_assessment_prompt(
         self,

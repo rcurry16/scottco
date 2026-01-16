@@ -1,20 +1,27 @@
 """FastAPI backend for job evaluation tool."""
 import json
+import logging
 import tempfile
 import time
+import uuid
 from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
+from starlette.middleware.base import BaseHTTPMiddleware
 
 from .classifier import ClassificationRecommendation, FirstPassClassifier
 from .comparator import ComparisonResult, PositionComparator
 from .export_utils import generate_docx, generate_pdf
 from .gauge import RevaluationGauge, RevaluationRecommendation
+from .logging_config import log_with_extra
 from .output_formatter import format_classification_only, format_full_workflow
+
+# Initialize logger
+logger = logging.getLogger("job_eval.api")
 
 app = FastAPI(
     title="Job Evaluation Tool",
@@ -30,6 +37,75 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# Logging middleware
+class LoggingMiddleware(BaseHTTPMiddleware):
+    """Middleware to log all HTTP requests with structured JSON logging."""
+
+    async def dispatch(self, request: Request, call_next):
+        """Log request start, process request, and log completion."""
+        request_id = str(uuid.uuid4())
+        client_ip = request.client.host if request.client else "unknown"
+        start_time = time.time()
+
+        # Attach request_id to request state for use in endpoints
+        request.state.request_id = request_id
+
+        # Log request start
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "Request started",
+            request_id=request_id,
+            ip=client_ip,
+            method=request.method,
+            path=request.url.path,
+            event="request_start"
+        )
+
+        # Process request
+        try:
+            response = await call_next(request)
+        except Exception as e:
+            # Log exception
+            total_duration = time.time() - start_time
+            log_with_extra(
+                logger,
+                logging.ERROR,
+                f"Request failed: {str(e)}",
+                request_id=request_id,
+                ip=client_ip,
+                method=request.method,
+                path=request.url.path,
+                total_duration_seconds=round(total_duration, 3),
+                error_type=type(e).__name__,
+                error_message=str(e),
+                event="error"
+            )
+            raise
+
+        # Calculate total duration
+        total_duration = time.time() - start_time
+
+        # Log request completion
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "Request completed",
+            request_id=request_id,
+            ip=client_ip,
+            method=request.method,
+            path=request.url.path,
+            status_code=response.status_code,
+            total_duration_seconds=round(total_duration, 3),
+            event="request_complete"
+        )
+
+        return response
+
+
+app.add_middleware(LoggingMiddleware)
 
 # Mount static files
 static_path = Path(__file__).parent / "static"
@@ -52,13 +128,29 @@ async def health():
     return {"status": "ok", "version": "0.1.0"}
 
 
-def save_upload_file(upload_file: UploadFile) -> Path:
+def save_upload_file(upload_file: UploadFile, request_id: str = None) -> Path:
     """Save uploaded file to temporary location."""
     suffix = Path(upload_file.filename).suffix if upload_file.filename else ""
     with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as tmp:
         content = upload_file.file.read()
         tmp.write(content)
-        return Path(tmp.name)
+        filepath = Path(tmp.name)
+
+        # Log file upload
+        if request_id:
+            log_with_extra(
+                logger,
+                logging.INFO,
+                "File uploaded",
+                request_id=request_id,
+                operation="upload",
+                filename=upload_file.filename or "unknown",
+                file_size_bytes=len(content),
+                file_type=suffix,
+                event="file_upload"
+            )
+
+        return filepath
 
 
 def validate_file_type(filename: str | None) -> None:
@@ -112,19 +204,20 @@ def save_results(
 
 
 @app.post("/api/classify", response_model=dict[str, Any])
-async def classify_position(file: UploadFile = File(...)):
+async def classify_position(request: Request, file: UploadFile = File(...)):
     """
     Classify a single position description.
 
     Returns Tool 1.3 output only.
     """
+    request_id = getattr(request.state, "request_id", None)
     temp_file = None
     try:
         # Validate file type
         validate_file_type(file.filename)
 
         # Save uploaded file
-        temp_file = save_upload_file(file)
+        temp_file = save_upload_file(file, request_id)
 
         # Run classifier
         classifier = FirstPassClassifier()
@@ -154,6 +247,7 @@ async def classify_position(file: UploadFile = File(...)):
 
 @app.post("/api/full-workflow", response_model=dict[str, Any])
 async def full_workflow(
+    request: Request,
     old_file: UploadFile = File(...),
     new_file: UploadFile = File(...)
 ):
@@ -162,6 +256,7 @@ async def full_workflow(
 
     Returns combined output from all three tools.
     """
+    request_id = getattr(request.state, "request_id", None)
     temp_old = None
     temp_new = None
     temp_comparison_json = None
@@ -172,8 +267,8 @@ async def full_workflow(
         validate_file_type(new_file.filename)
 
         # Save uploaded files
-        temp_old = save_upload_file(old_file)
-        temp_new = save_upload_file(new_file)
+        temp_old = save_upload_file(old_file, request_id)
+        temp_new = save_upload_file(new_file, request_id)
 
         # Tool 1.1: Compare
         comparator = PositionComparator()
@@ -229,7 +324,7 @@ async def full_workflow(
 
 
 @app.get("/api/download/{job_id}/{format}")
-async def download_evaluation(job_id: str, format: str):
+async def download_evaluation(request: Request, job_id: str, format: str):
     """
     Download evaluation results in specified format
 
@@ -237,6 +332,8 @@ async def download_evaluation(job_id: str, format: str):
         job_id: The job session ID
         format: "txt", "pdf", or "docx"
     """
+    request_id = getattr(request.state, "request_id", None)
+
     # Validate format
     if format not in ["txt", "pdf", "docx"]:
         raise HTTPException(status_code=400, detail="Invalid format. Must be txt, pdf, or docx")
@@ -250,6 +347,20 @@ async def download_evaluation(job_id: str, format: str):
         raise HTTPException(status_code=404, detail=f"Evaluation file not found for format: {format}")
 
     filepath = matching_files[0]
+
+    # Log file download
+    if request_id:
+        log_with_extra(
+            logger,
+            logging.INFO,
+            "File downloaded",
+            request_id=request_id,
+            operation="download",
+            filename=filepath.name,
+            file_size_bytes=filepath.stat().st_size,
+            format=format,
+            event="file_download"
+        )
 
     # Set appropriate media type
     media_types = {

@@ -65,30 +65,12 @@ class LoggingMiddleware(BaseHTTPMiddleware):
         )
 
         # Process request
-        try:
-            response = await call_next(request)
-        except Exception as e:
-            # Log exception
-            total_duration = time.time() - start_time
-            log_with_extra(
-                logger,
-                logging.ERROR,
-                f"Request failed: {str(e)}",
-                request_id=request_id,
-                ip=client_ip,
-                method=request.method,
-                path=request.url.path,
-                total_duration_seconds=round(total_duration, 3),
-                error_type=type(e).__name__,
-                error_message=str(e),
-                event="error"
-            )
-            raise
+        response = await call_next(request)
 
         # Calculate total duration
         total_duration = time.time() - start_time
 
-        # Log request completion
+        # Log request completion (successful or error response)
         log_with_extra(
             logger,
             logging.INFO,
@@ -236,7 +218,11 @@ async def classify_position(request: Request, file: UploadFile = File(...)):
             "result": result_dict,
         }
 
+    except HTTPException:
+        # Re-raise HTTP exceptions (like validation errors) as-is
+        raise
     except Exception as e:
+        # Convert other exceptions to 500 errors
         raise HTTPException(status_code=500, detail=str(e))
 
     finally:
@@ -310,7 +296,11 @@ async def full_workflow(
             "result": result_data,
         }
 
+    except HTTPException:
+        # Re-raise HTTP exceptions (like validation errors) as-is
+        raise
     except Exception as e:
+        # Convert other exceptions to 500 errors
         raise HTTPException(status_code=500, detail=str(e))
 
     finally:
@@ -376,10 +366,5 @@ async def download_evaluation(request: Request, job_id: str, format: str):
     )
 
 
-@app.exception_handler(Exception)
-async def global_exception_handler(request, exc):
-    """Handle all uncaught exceptions."""
-    return JSONResponse(
-        status_code=500,
-        content={"detail": str(exc)}
-    )
+# Removed global exception handler - FastAPI handles HTTPException properly by default
+# Uncaught exceptions will still be logged by the middleware and return 500

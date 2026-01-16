@@ -13,7 +13,7 @@ os.environ["MISTRAL_API_KEY"] = "test-mistral-key"
 @pytest.fixture
 def test_client():
     """Create FastAPI test client."""
-    from app import app
+    from job_description.app import app
     return TestClient(app)
 
 

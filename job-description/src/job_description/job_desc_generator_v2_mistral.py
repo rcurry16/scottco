@@ -16,12 +16,12 @@ from pydantic_ai import Agent
 from pydantic_ai.providers.mistral import MistralProvider
 from pydantic_ai.models.mistral import MistralModel
 
-import config
-from logging_config import log_with_extra
+from . import config
+from .logging_config import log_with_extra
 
 # Initialize logger
 logger = logging.getLogger("job_description.generator_mistral")
-from models import (
+from .models import (
     UserResponses,
     OrganizationalContext,
     JobDescription,
@@ -39,7 +39,7 @@ from models import (
     ExclusionStatus,
     UsageSummary
 )
-import output_formatter
+from . import output_formatter
 
 
 # ============================================================================

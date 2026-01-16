@@ -8,8 +8,8 @@ following the Nova Scotia Government template format.
 import os
 from datetime import datetime
 from typing import Optional
-from models import JobDescription
-import config
+from .models import JobDescription
+from . import config
 
 
 def sanitize_filename(text: str) -> str:

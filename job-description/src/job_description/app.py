@@ -25,12 +25,12 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from starlette.middleware.base import BaseHTTPMiddleware
 
-import config
-from logging_config import log_with_extra
+from . import config
+from .logging_config import log_with_extra
 
 # Initialize logger
 logger = logging.getLogger("job_description.api")
-from models import (
+from .models import (
     UserResponses,
     OrganizationalContext,
     JobDescription,
@@ -38,9 +38,9 @@ from models import (
     BoilerplateElements,
     ExclusionStatus
 )
-from job_desc_generator_v2_mistral import generate_job_description as generate_mistral
-from job_desc_generator_v2_anthropic import generate_job_description as generate_anthropic
-import output_formatter
+from .job_desc_generator_v2_mistral import generate_job_description as generate_mistral
+from .job_desc_generator_v2_anthropic import generate_job_description as generate_anthropic
+from . import output_formatter
 
 
 # ============================================================================
@@ -122,8 +122,8 @@ class LoggingMiddleware(BaseHTTPMiddleware):
 
 app.add_middleware(LoggingMiddleware)
 
-# Mount static files directory
-static_dir = Path(__file__).parent / "static"
+# Mount static files directory (at project root, not in package)
+static_dir = Path(__file__).parent.parent.parent / "static"
 static_dir.mkdir(exist_ok=True)
 app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
 
@@ -365,7 +365,7 @@ async def download_job_description(request: Request, provider: str, job_id: str,
 
 def _save_result(job_id: str, provider: str, job_desc: JobDescription):
     """Save job description in multiple formats (TXT, PDF, DOCX)"""
-    from export_utils import generate_pdf, generate_docx
+    from .export_utils import generate_pdf, generate_docx
 
     output_dir = Path(config.OUTPUT_DIRECTORY)
     output_dir.mkdir(exist_ok=True)

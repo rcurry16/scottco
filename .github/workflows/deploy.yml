@@ -31,6 +31,7 @@ jobs:
         run: |
           cd job-description
           uv sync --dev
+          uv pip install -e .
           uv run pytest -v
 
   deploy:
@@ -66,7 +67,7 @@ jobs:
               python3 -m venv .venv
             fi
             source .venv/bin/activate
-            uv pip install pydantic-ai==0.1.6 pydantic>=2.0.0 anthropic>=0.40.0 fastapi>=0.104.0 'uvicorn[standard]>=0.24.0' python-multipart>=0.0.6 python-dotenv>=1.0.0 reportlab>=4.0.0 python-docx>=1.0.0
+            uv pip install -e .
             deactivate
 
             # Create .env for job-description

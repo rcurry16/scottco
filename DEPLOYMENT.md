@@ -30,8 +30,11 @@ The scottco suite consists of three components deployed together:
 ├── job-description/      # Job description generator
 │   ├── .venv/           # Python virtual environment
 │   ├── .env             # Environment variables (API keys)
-│   ├── app.py           # FastAPI application
 │   ├── pyproject.toml   # Dependencies
+│   ├── src/
+│   │   └── job_description/  # Main package
+│   │       ├── app.py        # FastAPI application
+│   │       └── ...
 │   └── static/          # Web UI files
 │
 └── job-evaluation/       # Job evaluation tool
@@ -99,7 +102,7 @@ User=root
 WorkingDirectory=/var/www/scottco-github/job-description
 Environment="PATH=/var/www/scottco-github/job-description/.venv/bin"
 EnvironmentFile=/var/www/scottco-github/job-description/.env
-ExecStart=/var/www/scottco-github/job-description/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+ExecStart=/var/www/scottco-github/job-description/.venv/bin/uvicorn job_description.app:app --host 0.0.0.0 --port 8000
 Restart=always
 RestartSec=3
 
